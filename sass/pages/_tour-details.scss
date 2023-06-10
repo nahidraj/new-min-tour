@@ -630,11 +630,13 @@
 .provider-hidden {
   visibility: hidden;
   height: 0;
+  transform: scaleY(0);
 }
 
 .provider-visible {
   visibility: visible;
   height: auto;
+  transform: scaleY(1);
 }
 
 
