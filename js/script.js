@@ -532,10 +532,8 @@ $(function () {
   });
 
   // Animation on scroll
-  window.addEventListener("load", () => {
-    AOS.init({
-      once: false,
-    });
+  AOS.init({
+    once: false,
   });
 
   // document.addEventListener("keydown", function (event) {
