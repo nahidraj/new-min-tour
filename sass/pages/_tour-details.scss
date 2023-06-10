@@ -618,11 +618,13 @@
 .traveler-slider-box {
   visibility: hidden;
   height: 0;
+  transform: scaleY(0);
 }
 
 .traveler-visible {
   visibility: visible;
   height: auto;
+  transform: scaleY(1);
 }
 
 .provider-hidden {

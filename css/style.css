@@ -2959,11 +2959,13 @@ nav {
 
 .traveler-slider-box {
   visibility: hidden;
-  height: 0; }
+  height: 0;
+  transform: scaleY(0); }
 
 .traveler-visible {
   visibility: visible;
-  height: auto; }
+  height: auto;
+  transform: scaleY(1); }
 
 .provider-hidden {
   visibility: hidden;
