@@ -531,6 +531,12 @@ $(function () {
     });
   });
 
+  // Animation on scroll
+  window.addEventListener("load", () => {
+    AOS.init({
+      once: false,
+    });
+  });
 
   // document.addEventListener("keydown", function (event) {
   //   if (event.ctrlKey && event.key === "s") {
@@ -544,15 +550,6 @@ $(function () {
   //   // You can optionally show a message or perform some other action here
   // });
 
-  // Animation on scroll
-  // window.addEventListener('load', () => {
-  //   AOS.init({
-  //     duration: 1000,
-  //     easing: 'ease-in-out',
-  //     once: true,
-  //     mirror: false
-  //   })
-  // });
   // Disable keyboard events
   // document.addEventListener("keydown", function (event) {
   //   event.preventDefault();
