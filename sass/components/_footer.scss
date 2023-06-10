@@ -1,0 +1,130 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.footer-bg {
+  background-color: $black;
+  padding: 80px 0 20px 0;
+
+  color: #a9a8b6;
+
+  .about-footer {
+
+    ul {
+      border-top: 1px solid rgba(221, 221, 221, 0.2);
+      margin-top: 30px;
+      padding-top: 30px;
+
+      li {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 14px;
+
+        a {
+          color: #a9a8b6;
+          transition: all linear .2s;
+
+          &:hover {
+            color: $themeColor;
+          }
+        }
+
+        i {
+          position: absolute;
+          color: $themeColor;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  h4 {
+    @include font(20px, 500);
+    color: $white;
+    padding-bottom: 30px;
+  }
+
+  .links {
+
+    ul {
+      li {
+        margin-bottom: 30px;
+
+        a {
+          color: #a9a8b6;
+          transition: all linear .2s;
+
+          &:hover {
+            color: $themeColor;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-review {
+
+    i {
+      color: $themeColor;
+    }
+
+    span {
+      padding: 10px 0;
+    }
+
+    a {
+      color: #a9a8b6;
+      transition: all linear .2;
+
+      &:hover {
+        color: $themeColor;
+      }
+    }
+  }
+
+  .social {
+    margin-top: 20px;
+
+    a {
+      font-size: 16px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 40px;
+      border: 1px solid rgba(169, 168, 182, 0.2);
+      color: $white;
+      margin: 0 10px;
+      transition: all linear .2s;
+
+      &:hover {
+        color: $white;
+        background-color: $themeColor;
+        border-color: $themeColor;
+      }
+    }
+  }
+
+  .footer-btm {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(221, 221, 221, 0.2);
+  }
+
+  .footer-btm {
+    .footer-links {
+      span {
+        color: $white;
+      }
+
+      a {
+        color: $white;
+        margin-left: 30px;
+        transition: all linear .2s;
+
+        &:hover {
+          color: $themeColor;
+        }
+      }
+    }
+  }
+}

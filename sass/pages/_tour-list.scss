@@ -1,0 +1,581 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.tour-category-main {
+  .tour-category-slider {
+    .category-item {
+      width: auto;
+      border: 1px solid #7b7e84;
+      padding: 4px 20px 4px 4px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, .15);
+      border-radius: 50px;
+      margin: 0 6px;
+      transition: all linear .2s;
+      width: auto;
+
+      a {
+        position: relative;
+
+        img {
+          width: 54px;
+          height: 54px;
+          border-radius: 50%;
+        }
+
+        h6 {
+          @include font(14px, 700);
+          color: $black;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          height: 54px;
+          padding-left: 10px;
+        }
+      }
+
+      &:hover {
+        background-color: #effbfa;
+      }
+    }
+
+    li.active-category {
+      background-color: #effbfa;
+      border-color: #186d61;
+
+      h6 {
+        color: #186d61;
+      }
+    }
+  }
+}
+
+.tour-category-slider {
+  .icon {
+    position: absolute;
+    top: 14px;
+    cursor: pointer;
+    z-index: 9;
+    width: 35px;
+    height: 35px;
+    background-color: $white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 35px;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.2));
+    transition: all linear .2s;
+
+    &:hover {
+      background-color: $themeColor;
+      border-color: $themeColor;
+      color: $white;
+    }
+  }
+
+  .left {
+    left: -12px;
+  }
+
+  .right {
+    right: -12px;
+  }
+}
+
+.filter-area {
+  .result {
+    p {
+      @include font(14px, 600);
+    }
+  }
+
+  .filter-input {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+      background-color: transparent;
+      border: 0;
+      @include font(14px, 400);
+      line-height: 1;
+
+      span {
+        border-bottom: 1px solid $black;
+      }
+    }
+
+    select {
+      width: 200px;
+      margin-left: 20px;
+      @include font(14px, 500);
+      border: 1px solid #989898;
+    }
+  }
+}
+
+.tour-left-search {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+
+  .calendar {
+    background-color: $themeColor;
+    padding: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    h5 {
+      @include font(16px, 600);
+      color: $white;
+      margin-bottom: 14px;
+    }
+
+    .input-groups {
+      input {
+        cursor: pointer;
+        width: 100%;
+        height: 45px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 3px;
+        padding-left: 45px;
+      }
+
+      i {
+        position: absolute;
+        left: 19px;
+        top: 14px;
+        color: #55575b;
+      }
+    }
+  }
+
+  .search-main {
+    padding: 20px;
+
+    h5 {
+      @include font(18px, 700);
+      padding-bottom: 20px;
+    }
+
+    .form-check-input {
+      box-shadow: none;
+      width: 20px;
+      height: 20px;
+      border: 2px solid #ddd;
+    }
+
+    .form-check-input:checked {
+      background-color: $themeColor;
+      border-color: $themeColor;
+    }
+
+
+    label {
+      line-height: 30px;
+      margin-left: 8px;
+      @include font(16px, 500);
+      color: $black;
+      cursor: pointer;
+
+      h6 {
+        @include font(16px, 700);
+        line-height: 30px
+      }
+
+      small {
+        @include font(14px, 400);
+      }
+
+      i {
+        color: $themeColor;
+        font-size: 15px;
+      }
+
+      span {
+        font-size: 14px;
+        margin-left: 5px;
+      }
+    }
+
+    .show-more {
+      margin-top: 14px;
+      @include font(15px, 500);
+      cursor: pointer;
+      display: inline-block;
+
+      span {
+        line-height: 1;
+        border-bottom: 1px solid transparent;
+
+        &:hover {
+          border-color: $black;
+        }
+      }
+
+      i {
+        position: relative;
+        top: 2px;
+        padding-left: 4px;
+      }
+    }
+
+    .filter-container {
+
+      .price-input {
+        width: 100%;
+        display: flex;
+        margin: 0px 0 0px;
+        margin-top: -14px;
+      }
+
+      .price-input .field {
+        display: flex;
+        width: 100%;
+        height: 45px;
+        align-items: center;
+      }
+
+      .field input {
+        width: 100%;
+        height: 100%;
+        outline: none;
+        border: 0;
+        @include font(16px, 600);
+        margin-left: 0px;
+        border-radius: 5px;
+      }
+
+      input[type="number"]::-webkit-outer-spin-button,
+      input[type="number"]::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+      }
+
+      .price-input .separator {
+        width: 130px;
+        display: flex;
+        font-size: 19px;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .slider {
+        height: 5px;
+        position: relative;
+        background: #ddd;
+        border-radius: 5px;
+      }
+
+      .slider .progress {
+        height: 100%;
+        left: 0%;
+        right: 0%;
+        position: absolute;
+        border-radius: 5px;
+        background: #FD5056;
+      }
+
+      .range-input {
+        position: relative;
+        padding-bottom: 20px;
+      }
+
+      .range-input input {
+        position: absolute;
+        width: 100%;
+        height: 5px;
+        top: -5px;
+        background: none;
+        pointer-events: none;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+      }
+
+      input[type="range"]::-webkit-slider-thumb {
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background: #FD5056;
+        pointer-events: auto;
+        -webkit-appearance: none;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+        cursor: pointer;
+      }
+
+      input[type="range"]::-moz-range-thumb {
+        height: 17px;
+        width: 17px;
+        border: none;
+        border-radius: 50%;
+        background: #FD5056;
+        pointer-events: auto;
+        -moz-appearance: none;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+      }
+    }
+
+    .filter-container+.filter-container {
+      margin-top: 20px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+    }
+  }
+}
+
+// for category menu 
+.common-category-menu {
+  span {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+
+    i {
+      position: relative;
+      top: 5px
+    }
+
+    a {
+      @include font(15px, 700);
+      color: $black;
+
+      &:hover {
+        color: $themeColor;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .sub-menu {
+    ul {
+      padding-left: 20px;
+
+      li {
+        i {
+          top: 10px
+        }
+
+        a {
+          @include font(15px, 500);
+          color: $black;
+          line-height: 32px;
+
+          &:hover {
+            color: $themeColor;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+
+  .sub-menu+.sub-menu {
+    margin-top: 12px;
+  }
+}
+
+// for category menu 
+
+.tour-list-box {
+  margin-bottom: 35px;
+}
+
+.tour-list-item {
+  border: 1px solid #ddd;
+  padding: 24px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+  .image {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 24px;
+    position: relative;
+    z-index: 9;
+
+    img {
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      border-radius: 10px;
+    }
+
+    small {
+      color: $white;
+      display: block;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      text-shadow: 0 0.25rem 0.625rem rgba(0, 0, 0, 0.5);
+      @include font(13px, 500);
+      background-image: linear-gradient(180deg, rgba(42, 45, 50, 0), #2a2d32);
+      width: 100%;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding-bottom: 12px;
+      padding-left: 12px;
+    }
+  }
+
+  .text {
+    padding-right: 120px;
+    color: $black;
+
+    h4 {
+      @include font(18px, 700);
+      margin-bottom: 4px;
+      color: $black;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      transition: all linear .2s;
+    }
+
+    span {
+      color: $black;
+      font-size: 14px;
+      margin-bottom: 14px;
+
+      i {
+        color: $themeColor;
+      }
+    }
+
+    p {
+      @include font(14px, 500);
+      color: #55575b;
+      overflow: hidden;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+    }
+
+    ul {
+      margin-top: 24px;
+      @include font(14px, 500);
+
+      li+li {
+        margin-top: 5px;
+      }
+    }
+
+    .price {
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      p {
+        @include font(14px, 500);
+      }
+
+      h6 {
+        @include font(18px, 700)
+      }
+    }
+
+    &:hover {
+      h4 {
+        color: $themeColor;
+      }
+    }
+  }
+}
+
+.faqs {
+  margin-top: 20px;
+  padding-top: 24px;
+  border-top: 1px solid #DFE0E2;
+  margin-bottom: 50px;
+
+  .faq-heading {
+    @include font(24px, 700);
+    margin-bottom: 24px;
+  }
+
+}
+
+.faqs-block {
+  .faqs-title {
+    @include font(16px, 500);
+    margin-bottom: 20px;
+
+    strong {
+      margin-right: 5px;
+    }
+  }
+
+  .faqs-answer {
+    background-color: #F5F5F5;
+    padding: 20px;
+    border-radius: 10px;
+
+    .answer-title {
+      @include font(16px, 500);
+      margin-bottom: 20px;
+
+      strong {
+        margin-right: 5px;
+      }
+    }
+
+    .answer-block {
+      padding-left: 60px;
+      @include font(16px, 500);
+      color: $black;
+
+      li+li {
+        margin-top: 5px;
+      }
+
+      a {
+        color: $black;
+        display: block;
+
+        &:hover {
+          border-color: $black;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+.tour-page-tags {
+  margin-bottom: 80px;
+}
+
+.tour-item-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 14px;
+}
+
+.tour-item-tag {
+  color: $white;
+  background-color: $themeColor;
+  padding: 3px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tour-item-wishlist {
+  width: 35px;
+  height: 35px;
+  background-color: $white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 16px;
+  color: $black;
+  transition: all linear .2s;
+  float: right;
+
+  &:hover {
+    background-color: $themeColor;
+    color: $white;
+  }
+}

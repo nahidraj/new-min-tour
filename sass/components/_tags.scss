@@ -1,0 +1,67 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.tags {
+  padding-top: 80px;
+  margin-bottom: 30px;
+}
+
+.tags-item {
+  margin-bottom: 40px;
+
+  .tags-title {
+    h4 {
+      @include font(20px, 700);
+      margin-bottom: 20px;
+    }
+
+    a {
+      @include font(20px, 700);
+      margin-bottom: 20px;
+      color: $black;
+
+      &:hover {
+        border-color: $black;
+        text-decoration: underline;
+      }
+    }
+  }
+
+
+
+  ul {
+    li {
+      display: inline-block;
+      margin-right: 8px;
+      padding-right: 8px;
+      position: relative;
+      margin-bottom: 3px;
+
+      &::before {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0;
+        width: 1px;
+        height: 60%;
+        background-color: #bdbdbd;
+        content: "";
+      }
+
+      a {
+        @include font(14px, 500);
+        color: $black;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+
+      &:last-child {
+        &::before {
+          display: none;
+        }
+      }
+    }
+  }
+}

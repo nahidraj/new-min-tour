@@ -1,0 +1,66 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.why-book {
+  padding-top: 60px;
+
+  .modal-header {
+    border-bottom: 0;
+  }
+
+  .modal-dialog {
+    max-width: 800px;
+  }
+
+  .modal-body {
+    padding: 30px;
+
+    h4 {
+      @include font(26px, 600)
+    }
+
+    p {
+      margin-top: 24px
+    }
+  }
+}
+
+.book-main {
+  margin-top: 20px
+}
+
+.why-book-item {
+  h4 {
+    @include font(22px, 700);
+    margin-bottom: 10px;
+    margin-top: 24px;
+  }
+
+  p {
+    @include font(16px, 500)
+  }
+}
+
+.recommendations {
+  margin-top: 80px;
+
+  h6 {
+    border-top: 1px solid #DFE0E2;
+
+    p {
+      color: $black;
+      @include font(16px, 500);
+      display: inline-block;
+      background-color: $white;
+      padding: 10px 30px;
+      position: relative;
+      top: -20px;
+
+      span {
+        color: $themeColor;
+        border-bottom: 1px solid $themeColor;
+        cursor: pointer;
+      }
+    }
+  }
+}

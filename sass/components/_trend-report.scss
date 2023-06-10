@@ -1,0 +1,26 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.trend-report {
+  padding-top: 80px;
+
+  .trend-image {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+
+    .text {
+      padding: 66px 30px;
+
+      h4 {
+        @include font(32px, 700);
+        margin-bottom: 14px;
+      }
+
+      p {
+        font-weight: 500;
+        margin-bottom: 24px;
+      }
+    }
+  }
+}

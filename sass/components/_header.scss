@@ -1,0 +1,207 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+header {
+  background-color: $white;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  .country {
+    border-bottom: 4px solid transparent;
+    line-height: 50px;
+    padding: 0 8px;
+
+    .image {
+      cursor: pointer;
+
+      small {
+        @include font(20px, 500)
+      }
+    }
+
+    img {
+      width: 30px;
+      border-radius: 3px;
+    }
+
+    span {
+      color: $black;
+      @include font(15px, 500);
+      padding-left: 5px;
+    }
+
+    .all-country {
+      top: calc(100% - -4px);
+      left: 0;
+      width: 270px;
+      height: 500px;
+      z-index: 99;
+      background-color: $white;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      overflow-y: scroll;
+      visibility: hidden;
+
+      .main-title {
+        h4 {
+          @include font(16px, 700);
+          padding: 14px;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        }
+      }
+
+      .country-block {
+        h5 {
+          @include font(14px, 700);
+          padding-top: 20px;
+          padding-left: 24px;
+        }
+
+        ul {
+          li {
+            a {
+              padding-left: 24px;
+              width: 100%;
+              display: block;
+              line-height: 40px;
+            }
+
+            &:hover {
+              a {
+                background-color: #f2f2f2;
+              }
+            }
+          }
+        }
+
+        button {
+          background-color: transparent;
+          border: 0;
+          display: block;
+          width: 100%;
+          line-height: 40px;
+          padding: 0 20px;
+
+          &:hover {
+            background-color: #f2f2f2;
+          }
+        }
+      }
+    }
+
+    &:hover {
+      border-color: $themeColor;
+
+      .all-country {
+        visibility: visible;
+      }
+    }
+  }
+
+  .currency {
+    width: 200px !important;
+  }
+
+  .help {
+    margin-left: 10px;
+
+    a {
+      line-height: 52px;
+      @include font(15px, 500);
+      color: $black;
+      padding: 0 8px;
+      border-bottom: 4px solid transparent;
+
+      i {
+        font-size: 18px;
+      }
+
+      &:hover {
+        border-color: $themeColor;
+      }
+
+      span {
+        padding-left: 4px;
+      }
+    }
+  }
+
+  .account {
+    margin-left: 10px;
+    cursor: pointer;
+    line-height: 52px;
+    @include font(15px, 500);
+    color: $black;
+    padding: 0 8px;
+    border-bottom: 4px solid transparent;
+
+    i {
+      font-size: 18px;
+    }
+
+
+    &:hover {
+      border-color: $themeColor;
+    }
+
+    span {
+      padding-left: 4px;
+    }
+
+    .drop-menu {
+      top: calc(100% - -4px);
+      left: 0;
+      width: 160px;
+      z-index: 99;
+      background-color: $white;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+      visibility: hidden;
+
+      a {
+        line-height: 40px;
+        @include font(15px, 500);
+        color: $black;
+        width: 100%;
+        display: block;
+        padding: 0 24px;
+
+        &:hover {
+          background-color: #f2f2f2;
+        }
+      }
+    }
+
+    &:hover {
+      .drop-menu {
+        visibility: visible;
+      }
+    }
+  }
+
+  .wishlist {
+    margin-left: 8px;
+
+    a {
+      font-size: 18px;
+      color: $black;
+      line-height: 52px;
+      border-bottom: 4px solid transparent;
+      padding: 0 8px;
+
+      &:hover {
+        border-color: $themeColor;
+      }
+    }
+
+    span {
+      top: 9px;
+      right: -2px;
+      background-color: $themeColor;
+      border-radius: 50%;
+      color: $white;
+      width: 17px;
+      height: 17px;
+      text-align: center;
+      line-height: 17px;
+      @include font(12px, 600)
+    }
+  }
+}

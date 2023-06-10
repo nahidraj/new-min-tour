@@ -1,0 +1,43 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.inner-banner {
+  padding-top: 76px;
+
+  .banner-bg {
+    background-color: $secondaryColor;
+    padding: 50px 0;
+
+    .banner-context {
+      h2 {
+        @include font(42px, 700);
+        margin-bottom: 20px;
+      }
+
+      p {
+        @include font(16px, 500);
+      }
+    }
+
+    .plan {
+      top: -279px;
+      left: -240px;
+      z-index: -1;
+      animation: float-bob-y 3s infinite linear;
+    }
+  }
+}
+
+@keyframes float-bob-y {
+  0% {
+    transform: translateY(-30px)
+  }
+
+  50% {
+    transform: translateY(-10px)
+  }
+
+  to {
+    transform: translateY(-30px)
+  }
+}
