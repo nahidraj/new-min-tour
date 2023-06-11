@@ -348,99 +348,177 @@ nav {
     background-color: transparent;
     border: 0; }
 
-.mobile-user-info .mobile-user-overlay {
+.mobile-menu-content {
   width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  position: fixed;
-  top: 0;
-  left: 0;
-  transition: all 0.3s ease 0s;
-  visibility: hidden;
-  opacity: 0;
-  z-index: 999; }
-  .mobile-user-info .mobile-user-overlay .mobile-user-sidebar {
+  height: 100%; }
+  .mobile-menu-content .mobile-menu-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease 0s;
+    z-index: 999; }
+  .mobile-menu-content .mobile-menu-sidebar {
     position: fixed;
     top: 0;
     right: 0;
-    width: 310px;
+    max-width: 360px;
     height: 100%;
     background-color: #ffffff;
     z-index: 9999;
     padding: 20px;
     transition: all 0.4s ease 0s;
-    right: -310px; }
-    .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .close-user {
+    left: 0; }
+    .mobile-menu-content .mobile-menu-sidebar .close-menu {
       position: absolute;
-      top: 0px;
-      left: 0px;
+      top: 10px;
+      right: 10px;
       width: 40px;
       height: 40px;
       text-align: center;
       line-height: 40px;
       cursor: pointer;
       font-size: 22px; }
-      .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .close-user:hover {
+      .mobile-menu-content .mobile-menu-sidebar .close-menu:hover {
         background-color: #f1f1f1; }
-    .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content {
-      margin-top: 30px; }
-      .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .signup a {
-        display: block;
-        width: 100%;
-        font-size: 15px;
-        font-weight: 600;
-        color: #ffffff;
-        background-color: #FD5056;
-        padding: 8px 20px;
-        text-align: center;
-        border-radius: 3px; }
-        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .signup a:hover {
-          background-color: #9C2327; }
-      .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist {
-        margin-top: 40px;
-        margin-bottom: 24px; }
-        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a {
+    .mobile-menu-content .mobile-menu-sidebar .main-menu-content {
+      margin-top: 50px; }
+      .mobile-menu-content .mobile-menu-sidebar .main-menu-content ul li {
+        margin-bottom: 10px; }
+        .mobile-menu-content .mobile-menu-sidebar .main-menu-content ul li button {
           width: 100%;
           display: block;
+          text-align: left;
+          background-color: transparent;
+          box-shadow: 0 0.125rem 0.125rem rgba(0, 0, 0, 0.1);
+          border: 1px solid #ddd;
+          border-radius: 10px;
+          padding: 8px;
+          position: relative; }
+          .mobile-menu-content .mobile-menu-sidebar .main-menu-content ul li button img {
+            width: 50px;
+            border-radius: 8px;
+            margin-right: 10px; }
+          .mobile-menu-content .mobile-menu-sidebar .main-menu-content ul li button span {
+            font-size: 15px;
+            font-weight: 600;
+            margin-right: 10px;
+            width: 160px; }
+          .mobile-menu-content .mobile-menu-sidebar .main-menu-content ul li button small {
+            position: relative;
+            top: 14px;
+            margin-right: 10px; }
+          .mobile-menu-content .mobile-menu-sidebar .main-menu-content ul li button:hover {
+            border-color: #FD5056; }
+      .mobile-menu-content .mobile-menu-sidebar .main-menu-content .blogs {
+        margin-top: 20px; }
+        .mobile-menu-content .mobile-menu-sidebar .main-menu-content .blogs a {
+          font-size: 15px;
+          font-weight: 600;
+          color: #2A2D32; }
+          .mobile-menu-content .mobile-menu-sidebar .main-menu-content .blogs a i {
+            padding-left: 10px; }
+          .mobile-menu-content .mobile-menu-sidebar .main-menu-content .blogs a span:hover {
+            text-decoration: underline; }
+
+.mobile-user-info {
+  width: 100%;
+  height: 100%; }
+  .mobile-user-info .mobile-user-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    opacity: 0;
+    z-index: 999; }
+    .mobile-user-info .mobile-user-overlay .mobile-user-sidebar {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 310px;
+      height: 100%;
+      background-color: #ffffff;
+      z-index: 9999;
+      padding: 20px;
+      transition: all 0.4s ease 0s;
+      right: -310px; }
+      .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .close-user {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 40px;
+        height: 40px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+        font-size: 22px; }
+        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .close-user:hover {
+          background-color: #f1f1f1; }
+      .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content {
+        margin-top: 30px; }
+        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .signup a {
+          display: block;
+          width: 100%;
+          font-size: 15px;
+          font-weight: 600;
+          color: #ffffff;
+          background-color: #FD5056;
+          padding: 8px 20px;
+          text-align: center;
+          border-radius: 3px; }
+          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .signup a:hover {
+            background-color: #9C2327; }
+        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist {
+          margin-top: 40px;
+          margin-bottom: 24px; }
+          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a {
+            width: 100%;
+            display: block;
+            font-size: 14px;
+            font-weight: 500;
+            color: #2A2D32; }
+            .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a:hover {
+              color: #FD5056; }
+            .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a i {
+              width: 20px; }
+            .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a small {
+              font-size: 12px;
+              font-weight: 400;
+              color: #ffffff;
+              background-color: #9C2327;
+              padding: 4px 8px;
+              border-radius: 4px;
+              position: relative;
+              top: -4px; }
+            .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a:hover span {
+              text-decoration: underline; }
+        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn {
+          display: block;
+          width: 100%;
+          text-align: left;
+          background-color: transparent;
+          border: 0;
+          margin-bottom: 24px;
           font-size: 14px;
           font-weight: 500;
           color: #2A2D32; }
-          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a:hover {
+          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn:hover {
             color: #FD5056; }
-          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a i {
+          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn i.info-icon {
             width: 20px; }
-          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a small {
-            font-size: 12px;
-            font-weight: 400;
-            color: #ffffff;
-            background-color: #9C2327;
-            padding: 4px 8px;
-            border-radius: 4px;
+          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn span.info-icon {
+            width: 20px; }
+          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn img {
+            width: 15px;
+            border-radius: 2px;
             position: relative;
-            top: -4px; }
-          .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .wishlist a:hover span {
-            text-decoration: underline; }
-      .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn {
-        display: block;
-        width: 100%;
-        text-align: left;
-        background-color: transparent;
-        border: 0;
-        margin-bottom: 24px;
-        font-size: 14px;
-        font-weight: 500;
-        color: #2A2D32; }
-        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn:hover {
-          color: #FD5056; }
-        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn i.info-icon {
-          width: 20px; }
-        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn span.info-icon {
-          width: 20px; }
-        .mobile-user-info .mobile-user-overlay .mobile-user-sidebar .main-content .links .links-btn img {
-          width: 15px;
-          border-radius: 2px;
-          position: relative;
-          top: -1px; }
+            top: -1px; }
 
 .show-mobile-user-overlay {
   visibility: visible !important;
