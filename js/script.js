@@ -42,6 +42,20 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   });
 
   // review slider js
@@ -534,6 +548,39 @@ $(function () {
   // Animation on scroll
   AOS.init({
     once: false,
+  });
+
+  // code for mobile version menu
+  $(document).ready(function () {
+    // mobile user info js
+    $(".control-user-panel").on("click", function () {
+      $(".mobile-user-overlay").addClass("show-mobile-user-overlay");
+    });
+    $(".control-user-panel").on("click", function () {
+      $(".mobile-user-sidebar").addClass("show-mobile-user-sidebar");
+    });
+    $(".close-user").on("click", function () {
+      $(".mobile-user-overlay").removeClass("show-mobile-user-overlay");
+      $(".mobile-user-sidebar").removeClass("show-mobile-user-sidebar");
+    });
+
+    // mobile language popup js
+    $(".mobile-language-popup").hide();
+    $(".mobile-language-btn").on("click", function () {
+      $(".mobile-language-popup").show();
+    });
+    $(".close-mobile-lang-popup").on("click", function () {
+      $(".mobile-language-popup").hide();
+    });
+
+    // mobile currency popoup js
+    $(".mobile-currency-popup").hide();
+    $(".mobile-currency-btn").on("click", function () {
+      $(".mobile-currency-popup").show();
+    });
+    $(".close-mobile-currency-popup").on("click", function () {
+      $(".mobile-currency-popup").hide();
+    });
   });
 
   // document.addEventListener("keydown", function (event) {

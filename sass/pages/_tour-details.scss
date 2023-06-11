@@ -504,6 +504,10 @@
             top: 50%;
             transform: translateY(-50%);
             cursor: pointer;
+
+            &:hover {
+              opacity: 1;
+            }
           }
 
           .left {
