@@ -299,6 +299,17 @@
   .tags {
     padding-top: 60px;
   }
+
+  // footer part start
+  .footer-bg .important-links {
+    margin-top: 20px !important;
+  }
+
+  .footer-bg .footer-review {
+    margin-top: 20px !important;
+  }
+
+  // footer part end
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
@@ -519,6 +530,7 @@
     padding: 14px 14px;
     height: auto;
     border-radius: 0;
+    border-radius: 7px;
   }
 
   .banner .banner-info {
@@ -715,6 +727,7 @@
 
   .review .review-slider .review-item .image {
     position: unset;
+    margin: 0 auto;
     margin-bottom: 24px;
   }
 
