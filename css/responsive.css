@@ -84,7 +84,10 @@
     padding-left: 121px; }
 
   .footer-bg .footer-review a {
-    margin-left: 0 !important; } }
+    margin-left: 0 !important; }
+
+  .footer-bg .footer-btm .footer-links a {
+    margin-left: 22px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .common-title h2 {
     font-size: 24px; }
@@ -184,6 +187,29 @@
   .common-title h2 {
     font-size: 24px; }
 
+  .banner .banner-info .search-box {
+    width: 520px; }
+
+  .banner .banner-info .search-box .where-input::before {
+    display: none; }
+
+  .banner .banner-info .search-box .submit-btn {
+    padding: 14px 15px; }
+
+  .banner .banner-info h1 {
+    font-size: 42px; }
+
+  .banner .banner-info .search-box .input-area input {
+    width: 170px; }
+
+  .banner .banner-info .search-box .submit-btn {
+    padding: 0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px; }
+
   header .logo img {
     width: 100px; }
 
@@ -217,7 +243,7 @@
     margin-bottom: 24px; }
 
   .why-book-item h4 {
-    font-size: 20px; }
+    font-size: 18px; }
 
   .recommendations {
     margin-top: 50px; }
@@ -291,5 +317,200 @@
 
   .footer-bg .footer-btm .footer-links span {
     font-size: 15px; } }
+@media (max-width: 575.98px) {
+  body {
+    font-size: 15px; }
+
+  .common-title h2 {
+    font-size: 20px; }
+
+  .banner .banner-info h1 {
+    font-size: 39px; }
+
+  .banner .banner-main .banner-slider-item {
+    height: 540px !important; }
+
+  .banner .banner-info .search-box {
+    width: 100%;
+    padding: 14px 14px;
+    height: auto;
+    border-radius: 0; }
+
+  .banner .banner-info {
+    width: 95%; }
+
+  .banner .banner-info .search-box .where-input::before {
+    display: none; }
+
+  .banner .banner-info .search-box .where-input {
+    margin-right: 0 !important; }
+
+  .banner .banner-info .search-box .input-groups {
+    margin-bottom: 16px; }
+    .banner .banner-info .search-box .input-groups input {
+      border: 1px solid #ddd;
+      width: 100%;
+      height: 45px;
+      border-radius: 3px;
+      padding: 0 20px; }
+
+  .banner .banner-info .search-box .submit-btn {
+    width: 100%;
+    border-radius: 3px; }
+    .banner .banner-info .search-box .submit-btn span {
+      font-size: 16px !important; }
+    .banner .banner-info .search-box .submit-btn i {
+      padding-right: 8px !important;
+      position: relative;
+      top: 2px; }
+
+  .global-search-result-box {
+    top: 100%;
+    left: 0;
+    width: 100%;
+    z-index: 99; }
+
+  header .logo img {
+    width: 100px; }
+
+  header .country img {
+    width: 26px; }
+
+  header .country span {
+    font-size: 14px; }
+
+  header .help a {
+    font-size: 14px;
+    padding: 0 5px; }
+
+  header .account {
+    margin-left: 8px;
+    line-height: 52px; }
+
+  .banner .banner-main .banner-slider-item {
+    height: 400px; }
+
+  .banner .icon {
+    display: none !important; }
+
+  .banner .banner-main .banner-slider-item .overlay .container a {
+    display: none; }
+
+  .banner .slick-dots {
+    display: none !important; }
+
+  .why-book-item {
+    margin-bottom: 24px; }
+
+  .why-book-item h4 {
+    font-size: 18px; }
+
+  .why-book-item p {
+    font-size: 15px; }
+
+  .recommendations {
+    margin-top: 30px; }
+
+  .top-attraction {
+    padding-top: 20px; }
+
+  .top-attraction .shapes .tas-3 {
+    display: none; }
+
+  .inner-banner {
+    padding-top: 40px; }
+
+  .inner-banner .banner-bg .banner-context p {
+    font-size: 15px; }
+
+  .inner-banner .banner-bg .banner-context h2 {
+    font-size: 28px; }
+
+  .based-on-interest {
+    padding-top: 60px; }
+
+  .based-on-interest-item .image {
+    height: auto; }
+
+  .based-on-interest-item {
+    min-height: 322px; }
+
+  .tour-item-tag {
+    font-size: 13px; }
+
+  .top-destination {
+    padding-top: 40px; }
+
+  .destination-item {
+    height: 130px; }
+
+  .destination-item .overlay h4 {
+    font-size: 18px; }
+
+  .top-destination .top-destination-box .col-lg-3 {
+    float: left;
+    width: 50%; }
+
+  .review {
+    padding-top: 60px; }
+
+  .review .total-review {
+    margin-bottom: 30px; }
+
+  .review .review-slider .review-item .text {
+    padding-left: 0; }
+
+  .review .review-slider {
+    padding: 20px; }
+
+  .review .review-slider .review-item .text h4 {
+    font-size: 20px; }
+
+  .review .review-slider .review-item .text p {
+    font-size: 14px; }
+
+  .review .total-review h4 {
+    font-size: 20px; }
+
+  .review .review-slider .review-item .image {
+    position: unset;
+    margin-bottom: 24px; }
+
+  .trend-report {
+    padding-top: 60px; }
+
+  .trend-report .trend-image .text h4 {
+    font-size: 28px; }
+
+  .tags {
+    padding-top: 60px; }
+
+  .footer-bg {
+    padding: 40px 0 20px 0; }
+
+  .footer-bg .social {
+    margin-top: 30px;
+    text-align: left !important; }
+
+  .footer-bg .social a:first-child {
+    margin-left: 0; }
+
+  .footer-bg .footer-btm .footer-links a {
+    margin-left: 0;
+    margin-right: 10px;
+    font-size: 15px; }
+
+  .footer-bg .footer-btm .footer-links span {
+    font-size: 15px;
+    margin-right: 10px; }
+
+  .footer-bg .links {
+    margin-top: 0 !important; }
+
+  .footer-bg .footer-review {
+    margin-top: 0 !important; }
+
+  .footer-bg .about-footer {
+    margin-bottom: 30px !important; } }
 
 /*# sourceMappingURL=responsive.css.map */

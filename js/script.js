@@ -55,6 +55,12 @@ $(function () {
           slidesToShow: 2,
         },
       },
+      {
+        breakpoint: 501,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
     ],
   });
 
@@ -552,13 +558,30 @@ $(function () {
 
   // code for mobile version menu
   $(document).ready(function () {
+    // mobile menu info
+    $(".mobile-menu .left-bar").on("click", function () {
+      $(".mobile-menu-overlay").addClass("show-mobile-menu-overlay");
+      $(".mobile-menu-sidebar").addClass("show-mobile-menu-sidebar");
+    });
+
+    $(".close-menu").on("click", function () {
+      $(".mobile-menu-overlay").removeClass("show-mobile-menu-overlay");
+      $(".mobile-menu-sidebar").removeClass("show-mobile-menu-sidebar");
+    });
+
+    $(".mobile-main-menus").on("click", function () {
+      $(".child-mobile-menus").addClass("show-child-mobile-menus");
+    });
+    $(".close-child-mobile-menu").on("click", function () {
+      $(".child-mobile-menus").removeClass("show-child-mobile-menus");
+    });
+
     // mobile user info js
     $(".control-user-panel").on("click", function () {
       $(".mobile-user-overlay").addClass("show-mobile-user-overlay");
-    });
-    $(".control-user-panel").on("click", function () {
       $(".mobile-user-sidebar").addClass("show-mobile-user-sidebar");
     });
+
     $(".close-user").on("click", function () {
       $(".mobile-user-overlay").removeClass("show-mobile-user-overlay");
       $(".mobile-user-sidebar").removeClass("show-mobile-user-sidebar");

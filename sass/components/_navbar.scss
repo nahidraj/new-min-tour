@@ -186,8 +186,8 @@ nav {
     top: 0;
     left: 0;
     transition: all 0.3s ease 0s;
-    // visibility: hidden;
-    // opacity: 0;
+    visibility: hidden;
+    opacity: 0;
     z-index: 999;
   }
 
@@ -201,7 +201,8 @@ nav {
     z-index: 9999;
     padding: 20px;
     transition: all 0.4s ease 0s;
-    left: 0;
+    left: -360px;
+    overflow: hidden;
 
     .close-menu {
       position: absolute;
@@ -226,7 +227,7 @@ nav {
         li {
           margin-bottom: 10px;
 
-          button {
+          .mobile-main-menus {
             width: 100%;
             display: block;
             text-align: left;
@@ -281,10 +282,112 @@ nav {
         }
       }
     }
+
+    .child-mobile-menus {
+      position: absolute;
+      top: 0;
+      right: -360px;
+      width: 100%;
+      height: 100%;
+      background-color: $white;
+      z-index: 999;
+      padding: 20px;
+      transition: all 0.4s ease 0s;
+
+      .heading {
+        align-items: center;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
+
+        .close-child-mobile-menu {
+          i {
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            cursor: pointer;
+            font-size: 20px;
+          }
+        }
+
+        h5 {
+          @include font(15px, 500);
+        }
+      }
+
+      .menu-category-box {
+        margin-top: 20px;
+        overflow-y: auto;
+        height: 90%;
+
+        .menu-category-item {
+          border-bottom: 1px solid #ddd;
+          padding-bottom: 15px;
+          margin-bottom: 15px;
+
+          .title {
+            padding-bottom: 14px;
+
+            h6 {
+              @include font(15px, 500);
+              text-transform: uppercase;
+            }
+          }
+
+          ul {
+            padding-left: 10px;
+
+            li {
+              a {
+                @include font(14px, 400);
+                color: $black;
+                width: 100%;
+
+                &:hover {
+                  span {
+                    text-decoration: underline;
+                  }
+                }
+              }
+            }
+          }
+
+          .read-more {
+            background-color: transparent;
+            border: 0;
+            @include font(14px, 400);
+            padding-left: 10px;
+
+            i {
+              position: relative;
+              top: 2px;
+              padding-left: 5px;
+            }
+
+            &:hover {
+              span {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+
+    }
   }
 }
 
+.show-child-mobile-menus {
+  right: 0 !important;
+}
 
+.show-mobile-menu-overlay {
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+
+.show-mobile-menu-sidebar {
+  left: 0 !important;
+}
 
 
 .mobile-user-info {
@@ -317,8 +420,8 @@ nav {
 
       .close-user {
         position: absolute;
-        top: 0px;
-        left: 0px;
+        top: 10px;
+        left: 10px;
         width: 40px;
         height: 40px;
         text-align: center;
@@ -332,7 +435,7 @@ nav {
       }
 
       .main-content {
-        margin-top: 30px;
+        margin-top: 50px;
 
         .signup {
           a {

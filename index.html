@@ -629,28 +629,28 @@
   <!-- mobile menu content -->
   <div class="mobile-menu-content">
     <div class="mobile-menu-overlay">
-      <div class="mobile-menu-sidebar">
+      <div class="mobile-menu-sidebar position-relative">
         <div class="close-menu">
           <i class="fa-solid fa-xmark"></i>
         </div>
         <div class="main-menu-content">
           <ul class="list-unstyled">
             <li>
-              <button>
+              <button class="mobile-main-menus">
                 <img src="images/m-image.png" alt="m-image">
                 <span>Top Activities</span>
                 <small class="float-end"><i class="fa-solid fa-angle-right"></i></small>
               </button>
             </li>
             <li>
-              <button>
+              <button class="mobile-main-menus">
                 <img src="images/m-image.png" alt="m-image">
                 <span>Top Activities</span>
                 <small class="float-end"><i class="fa-solid fa-angle-right"></i></small>
               </button>
             </li>
             <li>
-              <button>
+              <button class="mobile-main-menus">
                 <img src="images/m-image.png" alt="m-image">
                 <span>Top Activities</span>
                 <small class="float-end"><i class="fa-solid fa-angle-right"></i></small>
@@ -659,6 +659,121 @@
           </ul>
           <div class="blogs">
             <a href=""><span>See the viator blog</span> <i class="fa-solid fa-angle-right"></i></a>
+          </div>
+        </div>
+        <!-- child mobile menus -->
+        <div class="child-mobile-menus">
+          <div class="heading d-flex justify-content-between">
+            <div class="close-child-mobile-menu">
+              <i class="fa-solid fa-angle-left"></i>
+            </div>
+            <h5>Top activities</h5>
+          </div>
+          <div class="menu-category-box">
+            <div class="menu-category-item">
+              <div class="title">
+                <h6>Top categories</h6>
+              </div>
+              <ul class="list-unstyled">
+                <li>
+                  <a href=""><span>Walking Tours in Rome</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Historical Tours in Rome</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Day Trips in London</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Dinner Cruises in Paris</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Walking Tours in Paris</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Day Trips in Florence</span></a>
+                </li>
+              </ul>
+              <button class="read-more"><span>Read More</span> <i class="fa-solid fa-angle-down"></i></button>
+            </div>
+            <div class="menu-category-item">
+              <div class="title">
+                <h6>Top categories</h6>
+              </div>
+              <ul class="list-unstyled">
+                <li>
+                  <a href=""><span>Walking Tours in Rome</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Historical Tours in Rome</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Day Trips in London</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Dinner Cruises in Paris</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Walking Tours in Paris</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Day Trips in Florence</span></a>
+                </li>
+              </ul>
+              <button class="read-more"><span>Read More</span> <i class="fa-solid fa-angle-down"></i></button>
+            </div>
+            <div class="menu-category-item">
+              <div class="title">
+                <h6>Top categories</h6>
+              </div>
+              <ul class="list-unstyled">
+                <li>
+                  <a href=""><span>Walking Tours in Rome</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Historical Tours in Rome</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Day Trips in London</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Dinner Cruises in Paris</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Walking Tours in Paris</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Day Trips in Florence</span></a>
+                </li>
+              </ul>
+              <button class="read-more"><span>Read More</span> <i class="fa-solid fa-angle-down"></i></button>
+            </div>
+            <div class="menu-category-item">
+              <div class="title">
+                <h6>Top categories</h6>
+              </div>
+              <ul class="list-unstyled">
+                <li>
+                  <a href=""><span>Walking Tours in Rome</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Historical Tours in Rome</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Day Trips in London</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Dinner Cruises in Paris</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Walking Tours in Paris</span></a>
+                </li>
+                <li>
+                  <a href=""><span>Day Trips in Florence</span></a>
+                </li>
+              </ul>
+              <button class="read-more"><span>Read More</span> <i class="fa-solid fa-angle-down"></i></button>
+            </div>
           </div>
         </div>
       </div>
@@ -958,7 +1073,7 @@
       </div>
       <div class="search-box" data-aos="fade-up" data-aos-delay="400" data-aos-duration="500">
         <form action="">
-          <div class="form-box d-flex justify-content-between align-items-center">
+          <div class="form-box d-sm-flex justify-content-between align-items-center">
             <div class="input-groups me-4 where-input">
               <span class="d-block">Where to?</span>
               <div class="input-area position-relative">
@@ -1038,7 +1153,8 @@
               </div>
             </div>
             <div class="input-groups">
-              <button class="submit-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i> Search</button>
+              <button class="submit-btn" type="submit"><i class="fa-solid fa-magnifying-glass me-0 me-md-1"></i> <span
+                  class="d-sm-none d-md-inline text-white">Search</span></button>
             </div>
           </div>
         </form>
@@ -1059,7 +1175,7 @@
       </div>
       <div class="book-main">
         <div class="row">
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out-right" data-aos-duration="500">
+          <div class="col-lg-3 col-sm-6 col-md-6" data-aos="zoom-out-right" data-aos-duration="500">
             <div class="why-book-item text-center">
               <svg width="48" height="35" fill="none" xmlns="http://www.w3.org/2000/svg"
                 class="advantageBannerIcon__2LXU">
@@ -1086,7 +1202,8 @@
               <p>You’re in control, with free cancellation and payment options to satisfy any plan or budget.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out-right" data-aos-delay="100" data-aos-duration="500">
+          <div class="col-lg-3 col-sm-6 col-md-6" data-aos="zoom-out-right" data-aos-delay="100"
+            data-aos-duration="500">
             <div class="why-book-item text-center">
               <svg width="49" height="36" fill="none" xmlns="http://www.w3.org/2000/svg"
                 class="advantageBannerIcon__2LXU">
@@ -1104,7 +1221,8 @@
               <p>Browse and book tours and activities so incredible, you’ll want to tell your friends.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out-right" data-aos-delay="200" data-aos-duration="500">
+          <div class="col-lg-3 col-sm-6 col-md-6" data-aos="zoom-out-right" data-aos-delay="200"
+            data-aos-duration="500">
             <div class="why-book-item text-center">
               <svg width="49" height="36" fill="none" xmlns="http://www.w3.org/2000/svg"
                 class="advantageBannerIcon__2LXU">
@@ -1122,7 +1240,8 @@
               <p>High quality standards. Millions of reviews. A Tripadvisor company.</p>
             </div>
           </div>
-          <div class="col-lg-3 col-md-6" data-aos="zoom-out-right" data-aos-delay="300" data-aos-duration="500">
+          <div class="col-lg-3 col-sm-6 col-md-6" data-aos="zoom-out-right" data-aos-delay="300"
+            data-aos-duration="500">
             <div class="why-book-item text-center">
               <svg width="49" height="35" fill="none" xmlns="http://www.w3.org/2000/svg"
                 class="advantageBannerIcon__2LXU">
@@ -1489,7 +1608,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row top-destination-box">
         <div class="col-lg-3 col-md-4 col-sm-6" data-aos="zoom-out-left" data-aos-delay="50" data-aos-duration="500">
           <div class="destination-item">
             <a href="" class="d-block w-100">
@@ -1870,13 +1989,13 @@
         </div>
         <div class="footer-btm">
           <div class="row">
-            <div class="col-lg-6 col-md-12">
+            <div class="col-lg-5 col-md-12">
               <div class="logos">
                 <img src="images/1.png" alt="1">
                 <img src="images/2.png" alt="2">
               </div>
             </div>
-            <div class="col-lg-6 col-md-12 align-self-center">
+            <div class="col-lg-7 col-md-12 align-self-center">
               <div class="footer-links text-lg-end mt-3 mt-lg-0">
                 <span>© 1997-2023 Viator, Inc.</span>
                 <a href="">Terms & Conditions</a>
