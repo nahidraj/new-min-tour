@@ -128,3 +128,27 @@
     }
   }
 }
+
+#button {
+  display: inline-block;
+  background-color: $themeColor;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: $white;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 15px;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}

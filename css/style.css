@@ -1403,6 +1403,28 @@ nav {
     .footer-bg .footer-btm .footer-links a:hover {
       color: #FD5056; }
 
+#button {
+  display: inline-block;
+  background-color: #FD5056;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  color: #ffffff;
+  text-align: center;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  font-size: 15px;
+  z-index: 9999;
+  cursor: pointer; }
+
+#button.show {
+  opacity: 1;
+  visibility: visible; }
+
 .hero-part {
   background-repeat: no-repeat !important;
   background-size: cover !important;

@@ -606,6 +606,27 @@ $(function () {
     });
   });
 
+  // back to top js
+  var btn = $("#button");
+
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > 400) {
+      btn.addClass("show");
+    } else {
+      btn.removeClass("show");
+    }
+  });
+
+  btn.on("click", function (e) {
+    e.preventDefault();
+    $("html, body").animate(
+      {
+        scrollTop: 0,
+      },
+      0
+    );
+  });
+
   // document.addEventListener("keydown", function (event) {
   //   if (event.ctrlKey && event.key === "s") {
   //     event.preventDefault();
