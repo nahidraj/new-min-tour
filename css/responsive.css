@@ -530,6 +530,13 @@
     margin-top: 0 !important; }
 
   .footer-bg .about-footer {
-    margin-bottom: 30px !important; } }
+    margin-bottom: 30px !important; }
+
+  .signup-page .login-head-info h2 {
+    font-size: 22px; }
+
+  .signup-page .social-login ul li a {
+    padding: 14px 24px;
+    width: 98px; } }
 
 /*# sourceMappingURL=responsive.css.map */

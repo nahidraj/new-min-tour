@@ -337,7 +337,8 @@ nav {
 .mobile-menu {
   padding: 5px 0;
   width: 100%;
-  z-index: 999; }
+  z-index: 999;
+  border-bottom: 1px solid #ddd; }
   .mobile-menu .left-bar i {
     font-size: 22px;
     width: 20px;
