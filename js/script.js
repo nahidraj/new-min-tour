@@ -99,7 +99,28 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 501,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
+
   // blog details blog slider js
   $(".blog-details-blog-slider").slick({
     infinite: true,
@@ -110,6 +131,26 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 501,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
   });
   // tour category slider js
   $(".tour-category-slider").slick({

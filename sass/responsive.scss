@@ -160,6 +160,13 @@
   }
 
   // footer part end
+  // blog details page start
+  .blog-details-page .blog-details-right {
+    position: unset;
+    margin-top: 30px;
+  }
+
+  // blog details page end
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -310,6 +317,76 @@
   }
 
   // footer part end
+  // blog details page start
+  .bread-crumb {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .blog-details-page .blog-top .title h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .blog-details-page .blog-top .title p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+  }
+
+  .blog-details-page .blog-top .image .big-image {
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .blog-details-page .blog-top .image .blog-author {
+    position: unset;
+    width: auto;
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+  }
+
+  .blog-details-page .blog-top .description p {
+    font-size: 16px;
+  }
+
+  .blog-details-page .blog-top .description .recom p {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .blog-details-block .text {
+    padding: 30px 14px;
+    margin-bottom: 30px;
+  }
+
+  .blog-details-block .text h4 {
+    font-size: 20px;
+  }
+
+  .blog-details-block .text .des {
+    padding: 24px;
+  }
+
+  .blog-details-block .image {
+    padding: 0 0px;
+    height: auto;
+  }
+
+  .blog-details-block .blog-caption {
+    padding-left: 0;
+  }
+
+  .blog-details-page .blog-details-right {
+    position: unset;
+    margin-top: 20px;
+  }
+
+  .blog-details-block {
+    margin-bottom: 30px;
+  }
+
+  // blog details page end
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
@@ -508,6 +585,77 @@
   }
 
   // footer part end
+
+  // blog details page start
+  .bread-crumb {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .blog-details-page .blog-top .title h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .blog-details-page .blog-top .title p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+  }
+
+  .blog-details-page .blog-top .image .big-image {
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .blog-details-page .blog-top .image .blog-author {
+    position: unset;
+    width: auto;
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+  }
+
+  .blog-details-page .blog-top .description p {
+    font-size: 16px;
+  }
+
+  .blog-details-page .blog-top .description .recom p {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+
+  .blog-details-block .text {
+    padding: 30px 14px;
+    margin-bottom: 30px;
+  }
+
+  .blog-details-block .text h4 {
+    font-size: 20px;
+  }
+
+  .blog-details-block .text .des {
+    padding: 24px;
+  }
+
+  .blog-details-block .image {
+    padding: 0 0px;
+    height: auto;
+  }
+
+  .blog-details-block .blog-caption {
+    padding-left: 0;
+  }
+
+  .blog-details-page .blog-details-right {
+    position: unset;
+    margin-top: 20px;
+  }
+
+  .blog-details-block {
+    margin-bottom: 30px;
+  }
+
+  // blog details page end
 }
 
 @media (max-width:575.98px) {
@@ -807,4 +955,80 @@
   }
 
   // singup page end
+  // blog details page start
+  .bread-crumb {
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .blog-details-page .blog-top .title h1 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .blog-details-page .blog-top .title p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+  }
+
+  .blog-details-page .blog-top .image .big-image {
+    height: auto;
+    margin-bottom: 0;
+  }
+
+  .blog-details-page .blog-top .image .blog-author {
+    position: unset;
+    width: auto;
+    border-radius: 10px;
+    margin: 20px 0 20px 0;
+  }
+
+  .blog-details-page .blog-top .description p {
+    font-size: 16px;
+  }
+
+  .blog-details-page .blog-top .description .recom p {
+    font-size: 13px;
+    padding: 10px 8px;
+  }
+
+  .blog-details-block .text {
+    padding: 30px 14px;
+    margin-bottom: 30px;
+  }
+
+  .blog-details-block .text h4 {
+    font-size: 20px;
+  }
+
+  .blog-details-block .text .des {
+    padding: 24px;
+  }
+
+  .blog-details-block .image {
+    padding: 0 0px;
+    height: auto;
+  }
+
+  .blog-details-block .blog-caption {
+    padding-left: 0;
+  }
+
+  .blog-details-page .blog-details-right {
+    position: unset;
+    margin-top: 20px;
+  }
+
+  .blog-details-block {
+    margin-bottom: 30px;
+  }
+
+  // blog details page end
+}
+
+@media (min-width:576px) {
+  .modal-dialog {
+    max-width: unset !important;
+  }
 }
