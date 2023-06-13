@@ -36,7 +36,10 @@
     height: 160px; }
 
   .destination-item .overlay h4 {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .common-card-slider-item .image {
+    height: 162px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .common-title h2 {
     font-size: 22px; }
@@ -91,7 +94,10 @@
 
   .blog-details-page .blog-details-right {
     position: unset;
-    margin-top: 30px; } }
+    margin-top: 30px; }
+
+  .common-card-slider-item .image {
+    height: 184px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .common-title h2 {
     font-size: 24px; }
@@ -246,7 +252,10 @@
     margin-top: 20px; }
 
   .blog-details-block {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .common-card-slider-item .image {
+    height: 134px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .common-title h2 {
     font-size: 24px; }
@@ -437,7 +446,10 @@
     margin-top: 20px; }
 
   .blog-details-block {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .common-card-slider-item .image {
+    height: 153px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -703,7 +715,10 @@
     margin-top: 20px; }
 
   .blog-details-block {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .common-card-slider-item .image {
+    height: auto; } }
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: unset !important; } }
