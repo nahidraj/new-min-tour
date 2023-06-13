@@ -627,6 +627,50 @@ $(function () {
     );
   });
 
+  // why book mobile slider js
+  $(".why-book-slider").slick({
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    dots: true,
+    arrows: false,
+    autoplay: false,
+  });
+
+  // top attraction mobile slider js
+  $(".top-attraction-slider").slick({
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    dots: false,
+    arrows: false,
+    autoplay: false,
+  });
+
+  // top destination mobile slider js
+  $(".top-destination-slider").slick({
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    dots: false,
+    arrows: false,
+    autoplay: false,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 501,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  });
+
   // document.addEventListener("keydown", function (event) {
   //   if (event.ctrlKey && event.key === "s") {
   //     event.preventDefault();

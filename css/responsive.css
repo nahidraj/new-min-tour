@@ -216,6 +216,9 @@
     text-align: center;
     line-height: 50px; }
 
+  .global-search-result-box {
+    width: 516px; }
+
   header .logo img {
     width: 100px; }
 
@@ -415,8 +418,16 @@
   .why-book-item p {
     font-size: 15px; }
 
+  .why-book-item {
+    padding: 0 30px; }
+
+  .recommendations h6 p {
+    font-size: 14px;
+    padding: 10px 5px;
+    top: -20px; }
+
   .recommendations {
-    margin-top: 30px; }
+    margin-top: 50px; }
 
   .top-attraction {
     padding-top: 20px; }

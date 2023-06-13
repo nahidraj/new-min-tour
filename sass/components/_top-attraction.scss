@@ -139,3 +139,28 @@
     }
   }
 }
+
+.mobile-attraction-part {
+  .top-attraction-slider {
+    .top-attaction-item {
+      box-shadow: none;
+      min-height: unset;
+      border-radius: 0;
+      margin-bottom: 5px;
+    }
+  }
+
+  .see-all {
+    text-align: center;
+    margin-top: 8px;
+
+    a {
+      @include font(16px, 600);
+      color: $black;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}

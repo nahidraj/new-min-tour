@@ -946,6 +946,25 @@ nav {
         border-bottom: 1px solid #FD5056;
         cursor: pointer; }
 
+.why-book-slider .why-book-item {
+  margin-bottom: 0; }
+.why-book-slider .slick-list {
+  padding-bottom: 0; }
+.why-book-slider .slick-dots {
+  text-align: center; }
+  .why-book-slider .slick-dots li {
+    display: inline-block;
+    margin: 0 3px; }
+    .why-book-slider .slick-dots li button {
+      font-size: 0;
+      width: 6px;
+      height: 6px;
+      background-color: #bababa;
+      border-radius: 50%;
+      border: 0; }
+  .why-book-slider .slick-dots li.slick-active button {
+    background-color: #FD5056; }
+
 .top-attraction {
   padding-top: 60px; }
   .top-attraction .shapes img {
@@ -1031,6 +1050,21 @@ nav {
       color: #FD5056; }
     .top-attaction-item:hover .image img {
       transform: scale(1.1); }
+
+.mobile-attraction-part .top-attraction-slider .top-attaction-item {
+  box-shadow: none;
+  min-height: unset;
+  border-radius: 0;
+  margin-bottom: 5px; }
+.mobile-attraction-part .see-all {
+  text-align: center;
+  margin-top: 8px; }
+  .mobile-attraction-part .see-all a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2A2D32; }
+    .mobile-attraction-part .see-all a:hover {
+      text-decoration: underline; }
 
 .inner-banner {
   padding-top: 76px; }
@@ -1190,6 +1224,11 @@ nav {
       text-shadow: rgba(0, 0, 0, 0.6) 0.0625rem 0 0.625rem; }
   .destination-item:hover img {
     transform: scale(1.1); }
+
+.mobile-top-destination .destination-item {
+  height: 170px;
+  margin: 0 12px;
+  margin-bottom: 0; }
 
 .review {
   padding-top: 80px; }
