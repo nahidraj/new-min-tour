@@ -1619,7 +1619,8 @@ nav {
   padding-bottom: 60px; }
   .destination-list ul li {
     display: inline-block;
-    margin-right: 10px; }
+    margin-right: 10px;
+    margin-bottom: 10px; }
     .destination-list ul li .desti-button {
       background-color: transparent;
       border: 1px solid rgba(0, 0, 0, 0.2);
@@ -1763,12 +1764,13 @@ nav {
 
 .common-stories .stories-item {
   border: 1px solid rgba(0, 0, 0, 0.1);
-  border-radius: 5px;
   position: relative;
   min-height: 256px;
-  padding-right: 328px; }
+  border-radius: 8px;
+  margin-bottom: 24px; }
   .common-stories .stories-item .text {
-    padding: 24px 20px; }
+    padding: 24px 20px;
+    border-radius: 5px; }
     .common-stories .stories-item .text h4 {
       font-size: 20px;
       font-weight: 700;
@@ -1789,31 +1791,28 @@ nav {
     .common-stories .stories-item .text ul {
       display: flex;
       align-items: flex-end;
-      position: absolute;
-      bottom: 24px;
-      left: 20px; }
-      .common-stories .stories-item .text ul li img {
-        width: 30px;
-        height: 30px;
-        border-radius: 50%; }
-      .common-stories .stories-item .text ul li span {
-        font-size: 14px;
-        font-weight: 500;
-        color: #7B7E84; }
+      height: 158px; }
+      .common-stories .stories-item .text ul li {
+        display: flex; }
+        .common-stories .stories-item .text ul li img {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          margin-right: 14px; }
+        .common-stories .stories-item .text ul li span {
+          font-size: 14px;
+          font-weight: 500;
+          color: #7B7E84; }
   .common-stories .stories-item .image {
-    width: 308px;
     height: 254px;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    position: absolute;
-    top: 0;
-    right: 0; }
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px; }
     .common-stories .stories-item .image img {
       height: 100%;
       object-fit: cover;
       object-position: center;
-      border-top-right-radius: 5px;
-      border-bottom-right-radius: 5px; }
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px; }
   .common-stories .stories-item:hover .text h4 {
     color: #FD5056; }
 
