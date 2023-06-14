@@ -42,7 +42,22 @@
     height: 162px; }
 
   .common-blog-card .blog-card-item {
-    height: 167px; } }
+    height: 167px; }
+
+  .common-stories .stories-item .image {
+    height: 232px; }
+
+  .common-stories .stories-item .text {
+    height: 232px; }
+
+  .signup-card .text {
+    padding: 20px 10px 20px; }
+
+  .common-modal span {
+    margin-left: 0; }
+
+  .culture-articles .right-sidebar .top-destination-section {
+    margin-bottom: 30px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .common-title h2 {
     font-size: 22px; }
@@ -119,7 +134,16 @@
 
   .videos .text img {
     margin-top: 29px;
-    width: 58px; } }
+    width: 58px; }
+
+  .signup-card .text {
+    padding: 20px 10px 20px; }
+
+  .common-modal span {
+    margin-left: 0; }
+
+  .culture-articles .right-sidebar .top-destination-section {
+    margin-bottom: 30px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .common-title h2 {
     font-size: 24px; }
@@ -299,7 +323,13 @@
     width: 58px; }
 
   .do-more .text {
-    padding: 24px 0; } }
+    padding: 24px 0; }
+
+  .culture-articles .right-sidebar {
+    margin-top: 40px; }
+
+  .culture-articles .right-sidebar .top-destination-section ul li {
+    display: inline-block; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .common-title h2 {
     font-size: 24px; }
@@ -529,8 +559,51 @@
   .common-stories .stories-item .text h4 {
     font-size: 18px; }
 
-  .common-stories .stories-item {
-    min-height: 167px; } }
+  .common-stories .stories-item .text {
+    height: 165px; }
+
+  .stories-for-category .stories-item {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px; }
+
+  .stories-for-category .stories-item .image {
+    height: auto; }
+    .stories-for-category .stories-item .image img {
+      border-radius: 5px; }
+
+  .stories-for-category .stories-item .text h4 {
+    font-size: 16px;
+    font-weight: 600; }
+
+  .stories-for-category .stories-item .text ul {
+    height: auto;
+    position: unset;
+    margin-top: 20px; }
+
+  .stories-for-category .stories-item .text {
+    height: auto;
+    padding: 0; }
+
+  .culture-articles .article-left {
+    padding-right: 0; }
+
+  .culture-articles .article-left .sort {
+    text-align: left !important;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 24px; }
+
+  .culture-articles .right-sidebar {
+    margin-top: 34px; }
+
+  .culture-articles .right-sidebar .top-destination-section ul li {
+    display: inline-block;
+    margin-bottom: 5px; }
+
+  .culture-articles .overview {
+    margin-top: 30px;
+    margin-bottom: 80px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -834,20 +907,92 @@
     padding: 24px 0; }
 
   .common-stories .stories-item .image {
-    height: 165px; }
+    height: auto; }
+
+  .common-stories .stories-item .text {
+    height: auto; }
 
   .common-stories .stories-item .text ul {
-    height: 67px; }
+    position: unset;
+    margin-top: 20px; }
+
+  .common-stories .stories-item .image img {
+    border-radius: 5px; }
 
   .common-stories .stories-item .text h4 {
-    font-size: 18px; }
+    font-size: 14px;
+    font-weight: 600; }
 
   .common-stories .stories-item {
-    min-height: 167px; }
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px;
+    border-radius: 0; }
+
+  .common-stories .stories-item .col-xl-6 {
+    float: left;
+    width: 50%; }
 
   .common-blog-card .col-lg-3 {
     float: left;
-    width: 50%; } }
+    width: 50%; }
+
+  .common-stories .stories-item .text {
+    padding: 0; }
+
+  .stories-for-category .same-item {
+    float: left;
+    width: 50%; }
+
+  .pagination ul li {
+    display: inline-block;
+    margin: 0 0px; }
+
+  .common-stories .stories-item .text ul li span {
+    font-size: 12px; }
+
+  .stories-for-category .stories-item {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 14px; }
+
+  .stories-for-category .stories-item .image {
+    height: auto; }
+    .stories-for-category .stories-item .image img {
+      border-radius: 5px; }
+
+  .stories-for-category .stories-item .text h4 {
+    font-size: 16px;
+    font-weight: 600; }
+
+  .stories-for-category .stories-item .text ul {
+    height: auto;
+    position: unset;
+    margin-top: 20px; }
+
+  .stories-for-category .stories-item .text {
+    height: auto;
+    padding: 0; }
+
+  .culture-articles .article-left {
+    padding-right: 0; }
+
+  .culture-articles .article-left .sort {
+    text-align: left !important;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 24px; }
+
+  .culture-articles .right-sidebar {
+    margin-top: 34px; }
+
+  .culture-articles .right-sidebar .top-destination-section ul li {
+    display: inline-block;
+    margin-bottom: 5px; }
+
+  .culture-articles .overview {
+    margin-top: 30px;
+    margin-bottom: 80px; } }
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: unset !important; } }
