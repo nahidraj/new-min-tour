@@ -202,10 +202,9 @@ $(function () {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          arrows:false,
+          arrows: false,
         },
       },
-
     ],
   });
 
@@ -865,35 +864,13 @@ $(function () {
       },
     ],
   });
+});
 
-  // document.addEventListener("keydown", function (event) {
-  //   if (event.ctrlKey && event.key === "s") {
-  //     event.preventDefault();
-  //     // You can optionally show a message or perform some other action here
-  //   }
-  // });
+$(window).on("load", function () {
+  var preloader = $("#preloader");
 
-  // document.addEventListener("contextmenu", function (event) {
-  //   event.preventDefault();
-  //   // You can optionally show a message or perform some other action here
-  // });
-
-  // Disable keyboard events
-  // document.addEventListener("keydown", function (event) {
-  //   event.preventDefault();
-  // });
-
-  // // Disable mouse events
-  // document.addEventListener("mousedown", function (event) {
-  //   event.preventDefault();
-  // });
-  // document.addEventListener("mouseup", function (event) {
-  //   event.preventDefault();
-  // });
-  // document.addEventListener("click", function (event) {
-  //   event.preventDefault();
-  // });
-  // document.addEventListener("contextmenu", function (event) {
-  //   event.preventDefault();
-  // });
+  // Hide preloader and fade in content after a delay
+  setTimeout(function () {
+    preloader.fadeOut(1000);
+  }, 2000); // Change the delay value as per your requirement
 });
