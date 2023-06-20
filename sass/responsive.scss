@@ -98,6 +98,26 @@
   .culture-articles .right-sidebar .top-destination-section {
     margin-bottom: 30px;
   }
+
+  // country wise tour page start
+  .country-wise-tour-item .image {
+    height: 240px;
+  }
+
+  .explore-interest-slider .slider-item .text {
+    width: 174px;
+    margin-right: 14px;
+  }
+
+  .trip-ideas-item .image {
+    height: 272px;
+  }
+
+  .common-testimonial-item .testi-heading .heading {
+    width: 126px;
+  }
+
+  // country wise tour page end
 }
 
 @media (min-width: 992px) and(max-width:1199.98px) {
@@ -238,6 +258,31 @@
   .culture-articles .right-sidebar .top-destination-section {
     margin-bottom: 30px;
   }
+
+  // country wise tour page start
+
+  .country-wise-tour-item .image {
+    height: 206px;
+  }
+
+  .explore-interest-slider .slider-item .text {
+    width: 132px;
+  }
+
+
+  .trip-ideas-item .image {
+    height: 224px;
+  }
+
+  .common-testimonial-item .testi-heading .heading {
+    width: 160px;
+  }
+
+  .common-testimonial-item .testi-details {
+    margin-top: 10px;
+  }
+
+  // country wise tour page end
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -504,6 +549,21 @@
       }
     }
   }
+
+  // country wise tour page start
+  .country-wise-tour-item .image {
+    height: 229px;
+  }
+
+  .explore-interest-slider .slider-item .text {
+    width: 137px;
+  }
+
+  .trip-ideas-item .image {
+    height: 223px;
+  }
+
+  // country wise tour page end
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
@@ -886,6 +946,40 @@
     margin-top: 30px;
     margin-bottom: 80px;
   }
+
+  // country wise tour page start
+  .country-wise-tour-box {
+    margin-top: 30px;
+  }
+
+  .country-wise-tour-item .image {
+    height: 178px;
+  }
+
+  .wishlist-banner .wishlist-bg .text {
+    width: auto;
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .trip-ideas-item .image {
+    border-radius: 10px;
+    height: 249px;
+  }
+
+  .wishlist-banner .wishlist-bg .text h4 {
+    font-size: 32px;
+  }
+
+  .common-testimonial-item .testi-heading .heading a.title {
+    margin-top: 10px;
+  }
+
+  .common-testimonial-item .testi-details {
+    margin-top: 10px;
+  }
+
+  // country wise tour page end
 
 }
 
@@ -1421,6 +1515,84 @@
     margin-top: 30px;
     margin-bottom: 80px;
   }
+
+  // country wise tour page start
+  .hero-section .overlay .text h1 {
+    font-size: 50px;
+  }
+
+  .country-wise-tour-item .image {
+    height: auto;
+  }
+
+  .wishlist-banner .wishlist-bg .text {
+    width: auto;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .wishlist-banner .wishlist-bg .text h4 {
+    font-size: 26px;
+  }
+
+  .explore-interest-slider .slider-item .text {
+    width: auto;
+    margin-right: 0px;
+    padding-right: 30px;
+  }
+
+  .explore-interest-slider .slider-item {
+    padding: 10px 7px;
+    margin: 0 12px;
+    position: relative;
+  }
+
+  .explore-interest-slider .slider-item .image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 8px;
+  }
+
+  .explore-interest-slider .slider-item .image img {
+    width: 32px;
+  }
+
+  .trip-ideas-slider .right {
+    right: 0;
+  }
+
+  .trip-ideas-slider .left {
+    left: 0;
+  }
+
+  .based-on-interest-slider .left {
+    left: 0;
+  }
+
+  .based-on-interest-slider .right {
+    right: 0;
+  }
+
+  .promoted-expariances-slider .right {
+    right: 0;
+  }
+
+  .promoted-expariances-slider .left {
+    left: 0;
+  }
+
+  .top-destination-section .col-lg-3 {
+    float: left;
+    width: 50%;
+  }
+
+  .trip-ideas-item .image {
+    border-radius: 10px;
+    height: auto;
+  }
+
+  // country wise tour page end
 
 }
 
