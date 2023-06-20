@@ -182,6 +182,31 @@ $(function () {
     slidesToScroll: 5,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 4,
+          slidesToScroll: 4,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          arrows:false,
+        },
+      },
+
+    ],
   });
 
   // explore interest slider js
@@ -259,7 +284,7 @@ $(function () {
       {
         breakpoint: 576,
         settings: {
-          slidesToShow:1,
+          slidesToShow: 1,
         },
       },
     ],

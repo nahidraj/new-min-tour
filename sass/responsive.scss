@@ -118,6 +118,7 @@
   }
 
   // country wise tour page end
+
 }
 
 @media (min-width: 992px) and(max-width:1199.98px) {
@@ -283,6 +284,51 @@
   }
 
   // country wise tour page end
+  // tour list page start
+  .tour-left-search .calendar h5 {
+    font-size: 14px;
+  }
+
+  .filter-area .filter-input button {
+    text-align: right;
+  }
+
+  .tour-category-main .tour-category-slider .category-item a h6 {
+    font-size: 13px;
+  }
+
+  .tour-list-item .image {
+    width: 234px;
+    height: 200px;
+  }
+
+  .tour-list-item .text ul {
+    margin-top: 10px;
+  }
+
+  .tour-list-item .text span {
+    margin-bottom: 10px;
+  }
+
+  .tour-left-search .search-main {
+    padding: 20px 12px;
+  }
+
+  .tour-left-search .search-main label h6 {
+    font-size: 15px;
+  }
+
+  .tour-left-search .search-main h5 {
+    font-size: 16px;
+    padding-bottom: 14px;
+  }
+
+  .common-category-menu .sub-menu ul li a {
+    font-size: 14px;
+  }
+
+
+  // tour list page end
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -564,6 +610,21 @@
   }
 
   // country wise tour page end
+  // tour list page start
+  .tour-left-search {
+    margin-bottom: 30px;
+  }
+
+  .tour-list-item .text {
+    padding-right: 106px;
+  }
+
+  .tour-list-item .image {
+    width: 241px;
+    height: 211px;
+  }
+
+  // tour list page end
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
@@ -981,6 +1042,33 @@
 
   // country wise tour page end
 
+  // tour list page start
+  .tour-left-search {
+    margin-bottom: 30px;
+  }
+
+  .tour-list-item .text {
+    padding-right: 106px;
+  }
+
+  .tour-list-item .image {
+    width: 217px;
+    height: 200px;
+  }
+
+  .filter-area .filter-input {
+    display: unset;
+  }
+
+  .tour-list-item .text {
+    padding-right: 0;
+  }
+
+  .tour-list-item .text .price {
+    position: unset;
+  }
+
+  // tour list page end
 }
 
 @media (max-width:575.98px) {
@@ -1592,7 +1680,56 @@
     height: auto;
   }
 
+  .common-testimonial-slider .left {
+    left: 0;
+  }
+
+  .common-testimonial-slider .right {
+    right: 0;
+  }
+
   // country wise tour page end
+  // tour list part start
+  .tour-left-search {
+    margin-bottom: 30px;
+  }
+
+  .filter-area .filter-input button {
+    text-align: left;
+  }
+
+  .tour-list-item .text {
+    padding-right: 0;
+    color: #2A2D32;
+    margin-top: 24px;
+  }
+
+  .tour-list-item .image {
+    float: unset !important;
+  }
+
+  .tour-list-item .text .price {
+    position: unset;
+  }
+
+  .blog-details-tour-slider .right {
+    right: 0;
+  }
+
+  .blog-details-tour-slider .left {
+    left: 0;
+  }
+
+  .faqs-block .faqs-answer .answer-block {
+    padding-left: 40px;
+    font-size: 15px;
+  }
+
+  .faqs .faq-heading {
+    font-size: 21px;
+  }
+
+  // tour list part end
 
 }
 
