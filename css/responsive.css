@@ -1209,7 +1209,12 @@
     font-size: 15px; }
 
   .faqs .faq-heading {
-    font-size: 21px; } }
+    font-size: 21px; }
+
+  .tour-list-item .image {
+    width: auto;
+    height: auto;
+    margin-right: 0; } }
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: unset !important; } }
