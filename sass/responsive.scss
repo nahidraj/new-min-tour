@@ -119,6 +119,24 @@
 
   // country wise tour page end
 
+  // wishlist page start
+  .wishlist-page .wishlist-content .after-create-wishlist-cart .image {
+    height: 214px;
+  }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart {
+    height: 323px;
+  }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create .bg {
+    height: 214px;
+  }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create {
+    height: 323px;
+  }
+
+  // wishlist page end
 }
 
 @media (min-width: 992px) and(max-width:1199.98px) {
@@ -329,6 +347,24 @@
 
 
   // tour list page end
+  // wishlist page start
+  .wishlist-page .wishlist-content .after-create-wishlist-cart .image {
+    height: 170px;
+  }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart {
+    height: 280px;
+  }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create .bg {
+    height: 170px;
+  }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create {
+    height: 280px;
+  }
+
+  // wishlist page end
 }
 
 @media (min-width:768px) and (max-width:991.98px) {
@@ -1069,6 +1105,24 @@
   }
 
   // tour list page end
+  // wishlist page start
+  .wishlist-page .wishlist-content .after-create-wishlist-cart .image {
+    height: 200px;
+  }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart {
+    height: 305px;
+  }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create .bg {
+    height: 200px;
+  }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create {
+    height: 305px;
+  }
+
+  // wishlist page end
 }
 
 @media (max-width:575.98px) {
@@ -1736,7 +1790,16 @@
   }
 
   // tour list part end
+  // wishlist page start
+  .wishlist-page .wishlist-content .after-create-wishlist-cart .image {
+    height: auto;
+  }
 
+  .wishlist-page .wishlist-content .after-create-wishlist-cart {
+    height: auto;
+  }
+
+  // wishlist page end
 }
 
 @media (min-width:576px) {

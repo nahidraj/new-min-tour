@@ -70,7 +70,19 @@
     height: 272px; }
 
   .common-testimonial-item .testi-heading .heading {
-    width: 126px; } }
+    width: 126px; }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart .image {
+    height: 214px; }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart {
+    height: 323px; }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create .bg {
+    height: 214px; }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create {
+    height: 323px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .common-title h2 {
     font-size: 22px; }
@@ -203,7 +215,19 @@
     padding-bottom: 14px; }
 
   .common-category-menu .sub-menu ul li a {
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart .image {
+    height: 170px; }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart {
+    height: 280px; }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create .bg {
+    height: 170px; }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create {
+    height: 280px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .common-title h2 {
     font-size: 24px; }
@@ -725,7 +749,19 @@
     padding-right: 0; }
 
   .tour-list-item .text .price {
-    position: unset; } }
+    position: unset; }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart .image {
+    height: 200px; }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart {
+    height: 305px; }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create .bg {
+    height: 200px; }
+
+  .wishlist-page .wishlist-content .wishlist-cart-create {
+    height: 305px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -1214,7 +1250,13 @@
   .tour-list-item .image {
     width: auto;
     height: auto;
-    margin-right: 0; } }
+    margin-right: 0; }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart .image {
+    height: auto; }
+
+  .wishlist-page .wishlist-content .after-create-wishlist-cart {
+    height: auto; } }
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: unset !important; } }
