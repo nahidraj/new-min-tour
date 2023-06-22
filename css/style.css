@@ -4442,4 +4442,258 @@ nav {
   .wishlist-page .wishlist-recentry-viewed .based-on-interest-item {
     margin: 0 0 24px; }
 
+.checkout-page {
+  background-color: #F5F5F5;
+  padding: 50px 0; }
+  .checkout-page .checkout-left-info {
+    background-color: #ffffff;
+    padding: 22px;
+    border-radius: 8px; }
+    .checkout-page .checkout-left-info .checkout-info-item {
+      border: 1px solid #037a52;
+      border-radius: 8px;
+      padding: 24px 18px;
+      margin-bottom: 20px; }
+      .checkout-page .checkout-left-info .checkout-info-item .heading h3 {
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 20px; }
+        .checkout-page .checkout-left-info .checkout-info-item .heading h3 span {
+          width: 30px;
+          height: 30px;
+          background-color: #2A2D32;
+          border-radius: 50%;
+          text-align: center;
+          line-height: 30px;
+          color: #ffffff;
+          font-weight: 500;
+          margin-right: 5px; }
+      .checkout-page .checkout-left-info .checkout-info-item .sign-bar {
+        background-color: #F5F5F5;
+        padding: 12px 20px;
+        border-radius: 8px;
+        margin: 24px 0; }
+        .checkout-page .checkout-left-info .checkout-info-item .sign-bar li {
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 400; }
+          .checkout-page .checkout-left-info .checkout-info-item .sign-bar li i {
+            color: #00B67A;
+            padding-right: 4px; }
+          .checkout-page .checkout-left-info .checkout-info-item .sign-bar li span {
+            font-weight: 700; }
+          .checkout-page .checkout-left-info .checkout-info-item .sign-bar li button {
+            font-size: 15px;
+            font-weight: 600;
+            text-decoration: underline;
+            background-color: transparent;
+            border: 0; }
+      .checkout-page .checkout-left-info .checkout-info-item .form-box .input-groups label {
+        font-size: 15px;
+        font-weight: 500;
+        margin-bottom: 5px; }
+        .checkout-page .checkout-left-info .checkout-info-item .form-box .input-groups label i {
+          font-size: 14px;
+          padding-left: 5px; }
+      .checkout-page .checkout-left-info .checkout-info-item .form-box .input-groups input {
+        width: 100%;
+        height: 46px;
+        border: 1px solid #dadada;
+        border-radius: 3px;
+        padding: 0 20px;
+        font-size: 15px;
+        font-weight: 400; }
+        .checkout-page .checkout-left-info .checkout-info-item .form-box .input-groups input:focus {
+          border-color: #2A2D32; }
+      .checkout-page .checkout-left-info .checkout-info-item .form-box .input-groups .form-select {
+        width: 100%;
+        height: 46px;
+        border: 1px solid #dadada;
+        border-radius: 3px;
+        padding: 0 20px;
+        font-size: 15px;
+        font-weight: 400;
+        width: 200px;
+        margin-right: 5px; }
+        .checkout-page .checkout-left-info .checkout-info-item .form-box .input-groups .form-select:focus {
+          border-color: #2A2D32; }
+      .checkout-page .checkout-left-info .checkout-info-item .form-box .input-groups input.input-email {
+        background-color: #DFE0E2;
+        cursor: not-allowed; }
+      .checkout-page .checkout-left-info .checkout-info-item .form-box .input-groups .phone-number {
+        flex-grow: 1; }
+      .checkout-page .checkout-left-info .checkout-info-item .form-box .checks input {
+        width: 22px;
+        height: 22px;
+        border: 1px solid #2A2D32; }
+      .checkout-page .checkout-left-info .checkout-info-item .form-box .checks .form-check-label {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 5px;
+        margin-left: 6px; }
+      .checkout-page .checkout-left-info .checkout-info-item .form-box .checks .form-check-input:checked {
+        background-color: #037a52;
+        border-color: #037a52; }
+      .checkout-page .checkout-left-info .checkout-info-item .form-box .next-button {
+        margin-top: 24px; }
+        .checkout-page .checkout-left-info .checkout-info-item .form-box .next-button button {
+          font-size: 15px;
+          font-weight: 600;
+          color: #ffffff;
+          padding: 10px 30px;
+          background-color: #037a52;
+          border-radius: 3px;
+          border: 0; }
+          .checkout-page .checkout-left-info .checkout-info-item .form-box .next-button button:hover {
+            background-color: #005035; }
+      .checkout-page .checkout-left-info .checkout-info-item:last-child {
+        margin-bottom: 0; }
+    .checkout-page .checkout-left-info .not-open {
+      border-color: #dadada; }
+      .checkout-page .checkout-left-info .not-open .heading h3 {
+        margin-bottom: 0 !important;
+        color: #585C63; }
+        .checkout-page .checkout-left-info .not-open .heading h3 span {
+          background-color: transparent;
+          color: #959595;
+          border: 2px solid #959595;
+          font-size: 16px;
+          width: 26px;
+          height: 26px;
+          line-height: 26px; }
+  .checkout-page .checkout-right-info .main-info-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.05); }
+    .checkout-page .checkout-right-info .main-info-box .heading {
+      position: relative;
+      padding-left: 65px;
+      padding-right: 120px; }
+      .checkout-page .checkout-right-info .main-info-box .heading img {
+        width: 50px;
+        height: 50px;
+        border-radius: 4px;
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .checkout-page .checkout-right-info .main-info-box .heading h5 {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px; }
+      .checkout-page .checkout-right-info .main-info-box .heading h6 {
+        position: absolute;
+        top: 0;
+        right: 0;
+        font-size: 15px;
+        font-weight: 600; }
+    .checkout-page .checkout-right-info .main-info-box .middle-info {
+      margin-top: 14px; }
+      .checkout-page .checkout-right-info .main-info-box .middle-info .sell-out {
+        font-size: 13px;
+        font-weight: 600;
+        color: #ffffff;
+        background-color: #C81E3A;
+        padding: 1px 12px;
+        border: 0;
+        border-radius: 3px; }
+      .checkout-page .checkout-right-info .main-info-box .middle-info ul {
+        margin-top: 14px; }
+        .checkout-page .checkout-right-info .main-info-box .middle-info ul li {
+          position: relative;
+          padding-left: 24px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 26px; }
+          .checkout-page .checkout-right-info .main-info-box .middle-info ul li i {
+            position: absolute;
+            top: 5px;
+            left: 0;
+            color: #00B67A; }
+      .checkout-page .checkout-right-info .main-info-box .middle-info .promo-code {
+        margin-top: 20px;
+        border-top: 1px solid #dadada;
+        border-bottom: 1px solid #dadada;
+        padding: 14px 0; }
+        .checkout-page .checkout-right-info .main-info-box .middle-info .promo-code .promo-btn {
+          font-size: 16px;
+          font-weight: 600;
+          background-color: transparent;
+          border: 0;
+          border-radius: 0;
+          text-decoration: underline;
+          width: 100%;
+          text-align: left; }
+        .checkout-page .checkout-right-info .main-info-box .middle-info .promo-code .input-groups input {
+          width: 100%;
+          height: 46px;
+          border: 1px solid #dadada;
+          border-radius: 3px;
+          background-color: transparent;
+          padding: 0 130px 0 20px; }
+        .checkout-page .checkout-right-info .main-info-box .middle-info .promo-code .input-groups button {
+          background-color: #037a52;
+          font-size: 15px;
+          font-weight: 600;
+          color: #ffffff;
+          border: 0;
+          border-radius: 3px;
+          width: 100px;
+          text-align: center;
+          height: 46px;
+          position: absolute;
+          top: 0;
+          right: 0;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0; }
+    .checkout-page .checkout-right-info .main-info-box .footer-info {
+      padding-top: 24px; }
+      .checkout-page .checkout-right-info .main-info-box .footer-info h4 {
+        font-size: 16px;
+        font-weight: 600; }
+      .checkout-page .checkout-right-info .main-info-box .footer-info h3 {
+        font-size: 20px;
+        font-weight: 600; }
+  .checkout-page .checkout-right-info .book-confidence {
+    margin-top: 50px; }
+    .checkout-page .checkout-right-info .book-confidence ul li {
+      position: relative;
+      padding-left: 60px;
+      margin-bottom: 30px; }
+      .checkout-page .checkout-right-info .book-confidence ul li .icon {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      .checkout-page .checkout-right-info .book-confidence ul li .text h6 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 8px; }
+      .checkout-page .checkout-right-info .book-confidence ul li .text small {
+        font-weight: 400; }
+      .checkout-page .checkout-right-info .book-confidence ul li .text .contact {
+        margin-top: 24px; }
+        .checkout-page .checkout-right-info .book-confidence ul li .text .contact li {
+          padding-left: 0px;
+          margin-bottom: 0;
+          line-height: 30px; }
+          .checkout-page .checkout-right-info .book-confidence ul li .text .contact li a {
+            font-size: 14px;
+            font-weight: 500;
+            color: #2A2D32; }
+            .checkout-page .checkout-right-info .book-confidence ul li .text .contact li a i {
+              position: relative;
+              left: 5px; }
+            .checkout-page .checkout-right-info .book-confidence ul li .text .contact li a:hover span {
+              text-decoration: underline; }
+          .checkout-page .checkout-right-info .book-confidence ul li .text .contact li i {
+            width: 24px;
+            color: #00B67A; }
+          .checkout-page .checkout-right-info .book-confidence ul li .text .contact li button {
+            background-color: transparent;
+            border: 0;
+            font-size: 14px;
+            font-weight: 500; }
+            .checkout-page .checkout-right-info .book-confidence ul li .text .contact li button span {
+              text-decoration: underline; }
+
 /*# sourceMappingURL=style.css.map */
