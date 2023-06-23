@@ -1439,7 +1439,13 @@
     font-weight: 600; }
 
   .what-to-expect .expect-item::before {
-    height: 108%; } }
+    height: 108%; }
+
+  .travels-photo-gallery .photo-item-big {
+    height: auto; }
+
+  .travels-photo-gallery .photo-item-small {
+    height: auto; } }
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: unset !important; } }
