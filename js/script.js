@@ -375,6 +375,14 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+    ],
   });
 
   // dynamic dropdown menu
@@ -621,6 +629,14 @@ $(function () {
     autoplay: false,
     slidesToScroll: 1,
     asNavFor: ".large-image",
+    // responsive: [
+    //   {
+    //     breakpoint: 576,
+    //     settings: {
+    //       slidesToShow: 3,
+    //     },
+    //   },
+    // ],
   });
 
   // tour gallery large image slider js

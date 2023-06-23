@@ -1,3 +1,6 @@
+@media (min-width: 992px) and (max-width: 1500px) {
+  .tour-details-footer .right-info {
+    text-align: left !important; } }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .common-title h2 {
     font-size: 24px; }
@@ -82,7 +85,29 @@
     height: 214px; }
 
   .wishlist-page .wishlist-content .wishlist-cart-create {
-    height: 323px; } }
+    height: 323px; }
+
+  .interest-part-item .text {
+    width: 238px; }
+
+  .tour-gallery-left-side .large-image {
+    height: 413px; }
+
+  .tour-gallery-check-availability {
+    padding: 24px 24px;
+    min-height: 515px; }
+
+  .tour-details-sticky-menu ul li a {
+    padding: 18px 15px; }
+
+  .tour-details-footer .right-info .check-avail-btn {
+    width: 293px; }
+
+  .tour-gallery-check-availability .input-boxes .check-avail-counter-box .qnt-number {
+    margin-right: 0; }
+
+  .tour-gallery-check-availability .input-boxes .check-avail-counter-box .qnt-number .cart-input {
+    width: 30px; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .common-title h2 {
     font-size: 22px; }
@@ -227,7 +252,42 @@
     height: 170px; }
 
   .wishlist-page .wishlist-content .wishlist-cart-create {
-    height: 280px; } }
+    height: 280px; }
+
+  .interest-part-item .text {
+    width: 180px; }
+
+  .tour-gallery-left-side .large-image {
+    height: 345px; }
+
+  .tour-gallery-check-availability {
+    padding: 18px 17px;
+    min-height: 523px; }
+
+  .tour-gallery-check-availability h5 span {
+    font-size: 22px; }
+
+  .tour-gallery-check-availability h5 {
+    font-size: 16px; }
+
+  .tour-gallery-check-availability h4 {
+    font-size: 18px; }
+
+  .tour-gallery-check-availability .input-boxes .check-avail-counter-box .qnt-number {
+    margin-right: 0px; }
+
+  .tour-gallery-check-availability .input-boxes .check-avail-counter-box .qnt-number .cart-input {
+    width: 23px; }
+
+  .tour-gallery-check-availability .input-boxes .check-avail-counter-box h6 {
+    margin-bottom: 5px; }
+
+  .tour-details-sticky-menu ul li a {
+    padding: 18px 10px;
+    font-size: 14px; }
+
+  .tour-details-footer .right-info .check-avail-btn {
+    width: 210px; } }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .common-title h2 {
     font-size: 24px; }
@@ -432,7 +492,29 @@
 
   .tour-list-item .image {
     width: 241px;
-    height: 211px; } }
+    height: 211px; }
+
+  .interest-part-item {
+    margin-bottom: 24px; }
+
+  .interest-part-item .text {
+    width: 217px; }
+
+  .tour-gallery-left-side .large-image {
+    height: 390px; }
+
+  .tour-gallery-check-availability {
+    padding: 30px 24px;
+    min-height: auto; }
+
+  .tour-info-menu {
+    margin-top: 30px; }
+
+  .tour-details-sticky-menu {
+    display: none; }
+
+  .tour-details-footer {
+    display: none !important; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .common-title h2 {
     font-size: 24px; }
@@ -761,7 +843,39 @@
     height: 200px; }
 
   .wishlist-page .wishlist-content .wishlist-cart-create {
-    height: 305px; } }
+    height: 305px; }
+
+  .tour-details-heading h2 {
+    font-size: 24px; }
+
+  .interest-part-item {
+    margin-bottom: 24px; }
+
+  .interest-part-item .text {
+    width: 217px; }
+
+  .tour-gallery-left-side .large-image {
+    height: 289px; }
+
+  .tour-gallery-check-availability {
+    padding: 30px 24px;
+    min-height: auto; }
+
+  .tour-info-menu {
+    margin-top: 30px; }
+
+  .tour-details-sticky-menu {
+    display: none; }
+
+  .tour-details-footer {
+    display: none !important; }
+
+  .tour-info-menu ul li + li {
+    margin-left: 0; }
+
+  .tour-info-menu ul li {
+    margin-right: 20px;
+    margin-bottom: 10px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -1256,7 +1370,76 @@
     height: auto; }
 
   .wishlist-page .wishlist-content .after-create-wishlist-cart {
-    height: auto; } }
+    height: auto; }
+
+  .tour-details-heading h2 {
+    font-size: 20px; }
+
+  .interest-part-item {
+    margin-bottom: 24px; }
+
+  .interest-part-item .text {
+    width: 210px; }
+
+  .left-side-modal-recom button {
+    text-align: left; }
+
+  .tour-gallery-left-side .large-image {
+    height: auto; }
+
+  .tour-gallery-left-side .slick-list {
+    padding-bottom: 0; }
+
+  .tour-gallery-check-availability {
+    padding: 30px 24px;
+    min-height: auto; }
+
+  .tour-info-menu {
+    margin-top: 30px; }
+
+  .tour-details-sticky-menu {
+    display: none; }
+
+  .tour-details-footer {
+    display: none !important; }
+
+  .tour-info-menu ul li + li {
+    margin-left: 0; }
+
+  .tour-info-menu ul li {
+    margin-right: 20px;
+    margin-bottom: 10px; }
+
+  .tour-gallery-left-side .large-image .right {
+    right: 20px; }
+
+  .tour-gallery-left-side .large-image .left {
+    left: 20px; }
+
+  .tour-gallery-check-availability .input-boxes .check-avail-counter-box .qnt-number {
+    text-align: left;
+    margin-top: 10px; }
+
+  .tour-details-information {
+    margin-top: 20px; }
+
+  .tour-details-page .common-title h2 {
+    font-size: 20px; }
+
+  .common-search-box {
+    width: 100%; }
+
+  .review-details .more-review-btn {
+    margin-top: 30px;
+    font-size: 14px;
+    font-weight: 600; }
+
+  .tour-details-questions .help-center-btn {
+    font-size: 14px;
+    font-weight: 600; }
+
+  .what-to-expect .expect-item::before {
+    height: 108%; } }
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: unset !important; } }
