@@ -679,6 +679,20 @@ $(function () {
     focusOnSelect: true,
     centerMode: true,
     centerPadding: "60px",
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+    ],
   });
 
   // tour details popup information js
@@ -725,6 +739,20 @@ $(function () {
     focusOnSelect: true,
     centerMode: true,
     centerPadding: "60px",
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 5,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+    ],
   });
 
   // traveler big slider info js

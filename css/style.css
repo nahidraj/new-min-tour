@@ -3390,7 +3390,7 @@ nav {
   .tour-details-popup-information .main-slider-container .provider-slider-box .provider-sm-slider {
     margin-top: 10px; }
     .tour-details-popup-information .main-slider-container .provider-slider-box .provider-sm-slider .sm-slider-item {
-      height: 150px;
+      height: auto;
       margin: 0 5px;
       position: relative;
       border-radius: 5px;
@@ -3417,7 +3417,7 @@ nav {
   .tour-details-popup-information .main-slider-container .traveler-slider-box .traveler-big-slider .traveler-big-slider-images {
     padding-left: 70px; }
     .tour-details-popup-information .main-slider-container .traveler-slider-box .traveler-big-slider .traveler-big-slider-images .traveler-big-slider-item {
-      height: 528px; }
+      height: auto; }
       .tour-details-popup-information .main-slider-container .traveler-slider-box .traveler-big-slider .traveler-big-slider-images .traveler-big-slider-item img {
         height: 100%;
         object-fit: contain;
@@ -3477,7 +3477,7 @@ nav {
   .tour-details-popup-information .main-slider-container .traveler-slider-box .traveler-sm-slider {
     margin-top: 10px; }
     .tour-details-popup-information .main-slider-container .traveler-slider-box .traveler-sm-slider .traveler-sm-slider-item {
-      height: 150px;
+      height: auto;
       margin: 0 5px;
       position: relative;
       border-radius: 5px;
