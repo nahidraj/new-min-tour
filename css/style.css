@@ -774,6 +774,8 @@ nav {
       top: 100%;
       left: 0;
       width: 100%; }
+      .mobile-search .modal-content .modal-body .global-search-result-box .location-btn i {
+        top: 18px; }
     .mobile-search .modal-content .modal-body .search-btn {
       margin-top: 10px; }
       .mobile-search .modal-content .modal-body .search-btn button {
@@ -963,7 +965,7 @@ nav {
     width: 100%;
     text-align: left;
     position: relative;
-    padding-left: 64px;
+    padding-left: 60px;
     border-bottom: 1px solid #ddd; }
     .global-search-result-box .location-btn h6 {
       font-size: 16px;
@@ -3112,6 +3114,81 @@ nav {
   .tour-details-sticky-menu ul li.active a {
     border-color: #2A2D32;
     font-weight: 700; }
+
+.top-header-search-desktop .input-groups input {
+  height: 44px;
+  border: 1px solid #B0B2B5;
+  width: 100%;
+  border-radius: 50px;
+  padding: 0 20px 0 45px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #2A2D32; }
+.top-header-search-desktop .input-groups .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  transform: translateY(-50%);
+  color: #7B7E84; }
+.top-header-search-desktop .top-header-search-desktop-result {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 500px;
+  border-radius: 8px;
+  border: 1px solid #bababa;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9; }
+  .top-header-search-desktop .top-header-search-desktop-result .body-area {
+    max-height: 450px;
+    overflow-y: auto; }
+    .top-header-search-desktop .top-header-search-desktop-result .body-area .recent-search {
+      padding: 10px 24px;
+      border-bottom: 1px solid #ddd; }
+      .top-header-search-desktop .top-header-search-desktop-result .body-area .recent-search h5 {
+        font-size: 14px;
+        font-weight: 700; }
+      .top-header-search-desktop .top-header-search-desktop-result .body-area .recent-search button {
+        background-color: transparent;
+        border: 0;
+        font-size: 14px;
+        font-weight: 500; }
+        .top-header-search-desktop .top-header-search-desktop-result .body-area .recent-search button:hover {
+          text-decoration: underline; }
+  .top-header-search-desktop .top-header-search-desktop-result .location-btn {
+    background-color: transparent;
+    border: 0;
+    padding: 16px 24px;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    padding-left: 60px;
+    border-bottom: 1px solid #ddd; }
+    .top-header-search-desktop .top-header-search-desktop-result .location-btn h6 {
+      font-size: 16px;
+      font-weight: 600; }
+    .top-header-search-desktop .top-header-search-desktop-result .location-btn i {
+      font-size: 24px;
+      color: #FD5056;
+      position: absolute;
+      top: 24px;
+      left: 24px; }
+    .top-header-search-desktop .top-header-search-desktop-result .location-btn:hover {
+      background-color: #f5f5f5; }
+  .top-header-search-desktop .top-header-search-desktop-result .footer-area button {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 0;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px; }
+    .top-header-search-desktop .top-header-search-desktop-result .footer-area button span {
+      font-weight: 500;
+      font-size: 16px; }
+    .top-header-search-desktop .top-header-search-desktop-result .footer-area button i {
+      top: 15px; }
 
 .sticky-top {
   top: -100px;

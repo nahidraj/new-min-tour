@@ -777,6 +777,12 @@ nav {
         top: 100%;
         left: 0;
         width: 100%;
+
+        .location-btn {
+          i {
+            top: 18px;
+          }
+        }
       }
 
       .search-btn {
