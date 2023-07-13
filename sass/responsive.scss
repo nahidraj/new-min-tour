@@ -2214,7 +2214,8 @@
 }
 
 @media (min-width:576px) {
-  .modal-dialog {
+
+  .mobile-search .modal-dialog {
     max-width: unset !important;
   }
 }
