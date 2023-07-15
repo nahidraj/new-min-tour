@@ -908,6 +908,37 @@ $(function () {
       },
     ],
   });
+  // top destination mobile slider js
+  $(".recent-reviews-experiance-slider").slick({
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    dots: false,
+    arrows: true,
+    autoplay: false,
+    prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
+    nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 501,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+  });
 });
 
 $(window).on("load", function () {

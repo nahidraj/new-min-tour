@@ -4519,6 +4519,266 @@ nav {
   .wishlist-page .wishlist-recentry-viewed .based-on-interest-item {
     margin: 0 0 24px; }
 
+.category-wise-tour-page .trip-ideas-section .common-title h2 {
+  font-size: 24px;
+  font-weight: 600; }
+
+.category-wise-tour-top-banner {
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important; }
+  .category-wise-tour-top-banner .overlay {
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(20px);
+    padding: 50px 0 30px 0; }
+    .category-wise-tour-top-banner .overlay .banner-area {
+      background-color: #ffffff;
+      border-radius: 14px;
+      overflow: hidden; }
+      .category-wise-tour-top-banner .overlay .banner-area .image {
+        height: 335px; }
+        .category-wise-tour-top-banner .overlay .banner-area .image img {
+          height: 100%;
+          object-fit: cover;
+          object-position: center; }
+      .category-wise-tour-top-banner .overlay .banner-area .info {
+        padding: 40px 40px 30px 10px; }
+        .category-wise-tour-top-banner .overlay .banner-area .info h4 {
+          font-size: 22px;
+          font-weight: 600; }
+        .category-wise-tour-top-banner .overlay .banner-area .info p {
+          font-size: 14px;
+          font-weight: 400;
+          margin: 24px 0 30px 0; }
+        .category-wise-tour-top-banner .overlay .banner-area .info ul li {
+          font-size: 15px;
+          font-weight: 500; }
+
+.category-wise-tour-tab {
+  margin: 14px 0 40px 0; }
+  .category-wise-tour-tab ul {
+    border-bottom: 1px solid #d1d1d1; }
+    .category-wise-tour-tab ul li {
+      display: inline-block; }
+      .category-wise-tour-tab ul li button {
+        background-color: transparent;
+        border: 0;
+        padding: 20px;
+        font-size: 16px;
+        font-weight: 500;
+        border-bottom: 3px solid transparent; }
+    .category-wise-tour-tab ul li.active button {
+      font-size: 17px;
+      font-weight: 600;
+      border-color: #2A2D32; }
+
+.category-wise-tour-basic-info {
+  margin-bottom: 30px; }
+  .category-wise-tour-basic-info .only-info {
+    padding-right: 20px; }
+    .category-wise-tour-basic-info .only-info h4 {
+      font-size: 24px;
+      font-weight: 600;
+      margin-bottom: 20px; }
+    .category-wise-tour-basic-info .only-info p {
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 14px; }
+    .category-wise-tour-basic-info .only-info .view-all {
+      background-color: #008768;
+      font-size: 16px;
+      font-weight: 700;
+      padding: 10px 30px;
+      border-radius: 3px;
+      color: #ffffff;
+      transition: all linear .2s; }
+      .category-wise-tour-basic-info .only-info .view-all:hover {
+        background-color: #00614B; }
+  .category-wise-tour-basic-info .image-info {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 24px; }
+    .category-wise-tour-basic-info .image-info .image-card {
+      border-radius: 8px;
+      border: 1px solid #d1d1d1; }
+      .category-wise-tour-basic-info .image-info .image-card .image {
+        border-top-right-radius: 8px;
+        border-top-left-radius: 8px; }
+        .category-wise-tour-basic-info .image-info .image-card .image img {
+          border-top-right-radius: 8px;
+          border-top-left-radius: 8px; }
+      .category-wise-tour-basic-info .image-info .image-card .text {
+        padding: 14px; }
+        .category-wise-tour-basic-info .image-info .image-card .text h6 {
+          font-size: 15px;
+          font-weight: 600;
+          color: #2A2D32;
+          transition: all linear .2s;
+          overflow: hidden;
+          display: -webkit-box;
+          -webkit-line-clamp: 3;
+          -webkit-box-orient: vertical; }
+        .category-wise-tour-basic-info .image-info .image-card .text span {
+          font-size: 14px;
+          color: #2A2D32;
+          margin: 8px 0 4px 0; }
+          .category-wise-tour-basic-info .image-info .image-card .text span i {
+            color: #FD5056; }
+        .category-wise-tour-basic-info .image-info .image-card .text .price h5 {
+          font-size: 17px;
+          font-weight: 600;
+          color: #2A2D32; }
+          .category-wise-tour-basic-info .image-info .image-card .text .price h5 small {
+            font-size: 14px;
+            font-weight: 400; }
+        .category-wise-tour-basic-info .image-info .image-card .text button {
+          background-color: #D3F6EE;
+          border: 0;
+          color: #008768;
+          font-size: 13px;
+          font-weight: 600;
+          padding: 5px 15px;
+          border-radius: 6px;
+          margin-top: 14px; }
+      .category-wise-tour-basic-info .image-info .image-card:hover h6 {
+        color: #FD5056; }
+    .category-wise-tour-basic-info .image-info .right-text h3 {
+      font-size: 17px;
+      font-weight: 600; }
+      .category-wise-tour-basic-info .image-info .right-text h3 i {
+        font-size: 22px; }
+    .category-wise-tour-basic-info .image-info .right-text p {
+      font-size: 14px;
+      font-weight: 400;
+      margin: 10px 0 14px 0; }
+    .category-wise-tour-basic-info .image-info .right-text span {
+      font-size: 14px;
+      font-weight: 500; }
+
+.recent-reviews-experiance .recent-reviews-experianc-bg {
+  background-color: #F5F5F5;
+  padding: 50px 0; }
+  .recent-reviews-experiance .recent-reviews-experianc-bg .top-title h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px; }
+  .recent-reviews-experiance .recent-reviews-experianc-bg .recent-reviews-item {
+    background-color: #ffffff;
+    padding: 24px;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    margin: 0 12px; }
+    .recent-reviews-experiance .recent-reviews-experianc-bg .recent-reviews-item .text {
+      margin-top: 10px; }
+      .recent-reviews-experiance .recent-reviews-experianc-bg .recent-reviews-item .text .star i {
+        color: #FD5056;
+        font-size: 14px; }
+      .recent-reviews-experiance .recent-reviews-experianc-bg .recent-reviews-item .text .title {
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 10px;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        color: #2A2D32; }
+      .recent-reviews-experiance .recent-reviews-experianc-bg .recent-reviews-item .text small {
+        color: #909092; }
+      .recent-reviews-experiance .recent-reviews-experianc-bg .recent-reviews-item .text .sub-title {
+        font-size: 15px;
+        font-weight: 600;
+        color: #4D4D4D;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        margin: 10px 0; }
+      .recent-reviews-experiance .recent-reviews-experianc-bg .recent-reviews-item .text p {
+        font-size: 15px;
+        font-weight: 400;
+        display: -webkit-box;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        color: #2A2D32; }
+      .recent-reviews-experiance .recent-reviews-experianc-bg .recent-reviews-item .text .more {
+        font-size: 16px;
+        font-weight: 600;
+        color: #2A2D32;
+        text-decoration: underline; }
+
+.recent-reviews-experiance-slider .icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ffffff;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #2A2D32;
+  filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.2));
+  z-index: 9;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-90%);
+  cursor: pointer;
+  transition: all linear .2s; }
+  .recent-reviews-experiance-slider .icon:hover {
+    background-color: #FD5056;
+    color: #ffffff; }
+.recent-reviews-experiance-slider .left {
+  left: -10px; }
+.recent-reviews-experiance-slider .right {
+  right: -10px; }
+
+.things-to-know {
+  padding-top: 40px;
+  margin-bottom: 40px; }
+  .things-to-know .things-info {
+    border-bottom: 1px solid #bfbfbf;
+    padding-bottom: 40px; }
+  .things-to-know .info .title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 24px; }
+  .things-to-know .info ul {
+    padding-left: 18px; }
+    .things-to-know .info ul li {
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 14px; }
+  .things-to-know .info p {
+    font-size: 15px;
+    font-weight: 400; }
+
+.when-to-get .when-to-get-info {
+  border-top: 1px solid #bfbfbf;
+  border-bottom: 1px solid #bfbfbf;
+  padding: 40px 0; }
+.when-to-get .info .title {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 24px; }
+.when-to-get .info ul {
+  padding-left: 18px; }
+  .when-to-get .info ul li {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 14px; }
+.when-to-get .info p {
+  font-size: 15px;
+  font-weight: 400; }
+
+.single-youtube-video {
+  margin-top: 50px;
+  margin-bottom: 40px; }
+  .single-youtube-video .video-item {
+    height: 450px; }
+    .single-youtube-video .video-item iframe {
+      width: 100%;
+      height: 100%; }
+
 .checkout-page {
   background-color: #F5F5F5;
   padding: 50px 0; }

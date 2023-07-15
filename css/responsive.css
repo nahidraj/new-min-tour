@@ -545,7 +545,13 @@
     font-size: 14px; }
 
   .tour-details-popup-information .main-slider-container .traveler-slider-box .traveler-big-slider .traveler-big-slider-info p {
-    font-size: 13px; } }
+    font-size: 13px; }
+
+  .category-wise-tour-top-banner .overlay .banner-area .info {
+    padding: 30px 24px 30px 24px; }
+
+  .category-wise-tour-basic-info .only-info {
+    margin-bottom: 24px; } }
 @media (min-width: 576px) and (max-width: 767.98px) {
   .common-title h2 {
     font-size: 24px; }
@@ -932,7 +938,13 @@
 
   .tour-details-popup-information .main-slider-container .provider-slider-box .provider-sm-slider {
     margin-top: 10px;
-    display: none; } }
+    display: none; }
+
+  .category-wise-tour-top-banner .overlay .banner-area .info {
+    padding: 30px 24px 30px 24px; }
+
+  .category-wise-tour-basic-info .only-info {
+    margin-bottom: 24px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -1559,7 +1571,22 @@
 
   .tour-details-popup-information .main-slider-container .provider-slider-box .provider-sm-slider {
     margin-top: 10px;
-    display: none; } }
+    display: none; }
+
+  .category-wise-tour-top-banner .overlay .banner-area .info {
+    padding: 30px 24px 30px 24px; }
+
+  .category-wise-tour-basic-info .only-info {
+    margin-bottom: 24px; }
+
+  .category-wise-tour-top-banner .overlay .banner-area .image {
+    height: auto; }
+
+  .category-wise-tour-basic-info .image-info .image-card {
+    margin-bottom: 24px; }
+
+  .single-youtube-video .video-item {
+    height: 264px; } }
 @media (min-width: 576px) {
   .mobile-search .modal-dialog {
     max-width: unset !important; } }
