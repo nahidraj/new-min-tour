@@ -836,6 +836,16 @@
   }
 
   // contact page end
+  // dashboard page start
+  .dashboard .right-sidebar {
+    margin-top: 30px;
+  }
+
+  .dashboard .right-sidebar .info-bloc-main .info-block .shortcut-item {
+    margin-bottom: 24px;
+  }
+
+  // dashboard page end
 }
 
 @media (min-width:576px) and (max-width:767.98px) {
@@ -1389,6 +1399,17 @@
   .contact-us-page .contact-form {
     margin-bottom: 40px;
   }
+
+  // dashboard page start
+  .dashboard .right-sidebar {
+    margin-top: 30px;
+  }
+
+  .dashboard .right-sidebar .info-bloc-main .info-block .shortcut-item {
+    margin-bottom: 24px;
+  }
+
+  // dashboard page end
 }
 
 @media (max-width:575.98px) {
@@ -2265,6 +2286,17 @@
   .contact-us-page .contact-form {
     margin-bottom: 40px;
   }
+
+  // dashboard page start
+  .dashboard .right-sidebar {
+    margin-top: 30px;
+  }
+
+  .dashboard .right-sidebar .info-bloc-main .info-block .shortcut-item {
+    margin-bottom: 24px;
+  }
+
+  // dashboard page end
 }
 
 @media (min-width:576px) {
