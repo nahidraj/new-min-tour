@@ -1,0 +1,45 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.cookie {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  padding: 20px;
+  background-color: $themeColor;
+
+  .info {
+    h6 {
+      @include font(18px, 600);
+      color: $white;
+      margin-bottom: 8px
+    }
+
+    p {
+      @include font(14px, 500);
+      color: $white;
+    }
+  }
+
+  .buttons {
+    .action-btn {
+      background-color: $white;
+      color: $themeColor;
+      padding: 6px 20px;
+      border-radius: 3px;
+      border: 0;
+      margin-left: 8px;
+      @include font(14px, 500);
+      text-transform: uppercase;
+      transition: all linear .2s;
+
+      &:hover {
+        background-color: $black;
+        color: $white;
+
+      }
+    }
+  }
+}

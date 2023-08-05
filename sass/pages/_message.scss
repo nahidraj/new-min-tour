@@ -1,0 +1,70 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.messages {
+  padding: 120px 0px 90px 0;
+  background-color: #f2f2f2;
+
+  .message-box {
+    width: 100%;
+    padding: 30px;
+    background-color: $white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 60px;
+
+    .icon {
+      position: absolute;
+      left: 50%;
+      top: -50px;
+      transform: translateX(-50%);
+      background-color: $white;
+      border-radius: 50%;
+
+      i {
+        font-size: 120px;
+        color: green;
+      }
+    }
+
+    .text {
+      h1 {
+        @include font(26px, 600);
+      }
+
+      p {
+        @include font(18px, 500);
+        margin-top: 10px;
+      }
+
+      .ok {
+        background-color: $black;
+        padding: 8px 20px;
+        @include font(18px, 500);
+        width: 100px;
+        border: 0;
+        border-radius: 3px;
+        color: $white;
+        margin-top: 30px;
+        transition: all linear .2s;
+
+        &:hover {
+          background-color: $themeColor;
+          color: $white;
+        }
+      }
+    }
+  }
+}
+
+.messages.failed {
+  .icon {
+
+    i {
+      color: red;
+    }
+  }
+
+}

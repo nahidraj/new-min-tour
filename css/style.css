@@ -15,7 +15,9 @@ p {
   margin: 0;
   padding: 0; }
 
-a {
+a,
+a:hover,
+a:focus {
   display: inline-block;
   text-decoration: none; }
 
@@ -1554,6 +1556,38 @@ nav {
 #button.show {
   opacity: 1;
   visibility: visible; }
+
+.cookie {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  padding: 20px;
+  background-color: #FD5056; }
+  .cookie .info h6 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    margin-bottom: 8px; }
+  .cookie .info p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #ffffff; }
+  .cookie .buttons .action-btn {
+    background-color: #ffffff;
+    color: #FD5056;
+    padding: 6px 20px;
+    border-radius: 3px;
+    border: 0;
+    margin-left: 8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: all linear .2s; }
+    .cookie .buttons .action-btn:hover {
+      background-color: #2A2D32;
+      color: #ffffff; }
 
 .hero-part {
   background-repeat: no-repeat !important;
@@ -5282,5 +5316,52 @@ nav {
   padding: 12px 24px;
   border-radius: 3px;
   border: 0; }
+
+.messages {
+  padding: 120px 0px 90px 0;
+  background-color: #f2f2f2; }
+  .messages .message-box {
+    width: 100%;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding-top: 110px;
+    padding-bottom: 60px; }
+    .messages .message-box .icon {
+      position: absolute;
+      left: 50%;
+      top: -50px;
+      transform: translateX(-50%);
+      background-color: #ffffff;
+      border-radius: 50%; }
+      .messages .message-box .icon i {
+        font-size: 120px;
+        color: green; }
+    .messages .message-box .text h1 {
+      font-size: 26px;
+      font-weight: 600; }
+    .messages .message-box .text p {
+      font-size: 18px;
+      font-weight: 500;
+      margin-top: 10px; }
+    .messages .message-box .text .ok {
+      background-color: #2A2D32;
+      padding: 8px 20px;
+      font-size: 18px;
+      font-weight: 500;
+      width: 100px;
+      border: 0;
+      border-radius: 3px;
+      color: #ffffff;
+      margin-top: 30px;
+      transition: all linear .2s; }
+      .messages .message-box .text .ok:hover {
+        background-color: #FD5056;
+        color: #ffffff; }
+
+.messages.failed .icon i {
+  color: red; }
 
 /*# sourceMappingURL=style.css.map */

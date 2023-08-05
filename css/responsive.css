@@ -962,7 +962,14 @@
     margin-top: 30px; }
 
   .dashboard .right-sidebar .info-bloc-main .info-block .shortcut-item {
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+
+  .cookie .info p {
+    font-size: 13px; }
+
+  .cookie .buttons .action-btn {
+    margin-left: 0;
+    margin-right: 8px; } }
 @media (max-width: 575.98px) {
   body {
     font-size: 15px; }
@@ -1613,7 +1620,14 @@
     margin-top: 30px; }
 
   .dashboard .right-sidebar .info-bloc-main .info-block .shortcut-item {
-    margin-bottom: 24px; } }
+    margin-bottom: 24px; }
+
+  .cookie .info p {
+    font-size: 13px; }
+
+  .cookie .buttons .action-btn {
+    margin-left: 0;
+    margin-right: 8px; } }
 @media (min-width: 576px) {
   .mobile-search .modal-dialog {
     max-width: unset !important; } }
