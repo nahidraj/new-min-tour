@@ -946,6 +946,6 @@ $(window).on("load", function () {
 
   // Hide preloader and fade in content after a delay
   setTimeout(function () {
-    preloader.fadeOut(00);
-  }, 00); // Change the delay value as per your requirement
+    preloader.fadeOut(0);
+  }, 0); // Change the delay value as per your requirement
 });
