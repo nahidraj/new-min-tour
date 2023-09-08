@@ -1,0 +1,31 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.tearms-and-conditions {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  .title {
+    h4 {
+      @include font(52px, 600);
+      border-bottom: 1px solid $black;
+      padding-bottom: 20px;
+    }
+
+    margin-bottom: 40px;
+  }
+}
+
+
+#terms-and-conditions {
+  padding-left: 20px;
+
+  ul,
+  ol {
+    margin-bottom: 30px;
+  }
+
+  li {
+    margin-bottom: 14px;
+  }
+}

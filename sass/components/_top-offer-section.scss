@@ -1,0 +1,41 @@
+@import "../variable/variable";
+@import "../mixin/font";
+
+.top-offer-section {
+  background-color: $themeColor;
+
+  .text {
+    padding: 10px;
+
+    p {
+      @include font(13px, 500);
+      color: $white;
+      position: relative;
+      padding-left: 34px;
+      padding-right: 30px;
+
+      .fa-circle-info {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: $white;
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: underline;
+        color: $white;
+      }
+
+      .close {
+        background-color: transparent;
+        border: 0;
+        color: $white;
+        position: absolute;
+        top: -5px;
+        right: 0;
+        font-size: 20px;
+      }
+    }
+  }
+}

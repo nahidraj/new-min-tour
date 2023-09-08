@@ -1,6 +1,21 @@
 $(function () {
   ("use strict");
 
+  // popup offer js
+  // if want every loading time
+  $(document).ready(function () {
+    $('#popup').modal('show');
+  });
+  
+  // popup offer js
+  // if want only single time
+  // $(document).ready(function () {
+  //   if (sessionStorage.getItem('#popup') !== 'true') {
+  //     $('#popup').modal('show');
+  //     sessionStorage.setItem('#popup', true);
+  //   }
+  // });
+
   // banner slider js
   $(".banner-main").slick({
     infinite: true,
@@ -42,8 +57,7 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 3,
@@ -87,8 +101,7 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1200,
         settings: {
           slidesToShow: 3,
@@ -119,8 +132,7 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 3,
@@ -151,8 +163,7 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 3,
@@ -182,8 +193,7 @@ $(function () {
     slidesToScroll: 5,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 4,
@@ -218,8 +228,7 @@ $(function () {
     slidesToScroll: 5,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1400,
         settings: {
           slidesToShow: 4,
@@ -261,8 +270,7 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 3,
@@ -299,8 +307,7 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 3,
@@ -337,8 +344,7 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 1200,
         settings: {
           slidesToShow: 3,
@@ -375,14 +381,12 @@ $(function () {
     slidesToScroll: 1,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
-        breakpoint: 576,
-        settings: {
-          slidesToShow: 2,
-        },
+    responsive: [{
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 2,
       },
-    ],
+    }, ],
   });
 
   // dynamic dropdown menu
@@ -569,8 +573,7 @@ $(function () {
       e.preventDefault();
       var target = $(this).attr("href");
       var offset = 110; // Adjust the offset as desired
-      $("html, body").animate(
-        {
+      $("html, body").animate({
           scrollTop: $(target).offset().top - offset,
         },
         0
@@ -679,8 +682,7 @@ $(function () {
     focusOnSelect: true,
     centerMode: true,
     centerPadding: "60px",
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 5,
@@ -739,8 +741,7 @@ $(function () {
     focusOnSelect: true,
     centerMode: true,
     centerPadding: "60px",
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 5,
@@ -857,8 +858,7 @@ $(function () {
 
   btn.on("click", function (e) {
     e.preventDefault();
-    $("html, body").animate(
-      {
+    $("html, body").animate({
         scrollTop: 0,
       },
       0
@@ -893,8 +893,7 @@ $(function () {
     dots: false,
     arrows: false,
     autoplay: false,
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
@@ -918,8 +917,7 @@ $(function () {
     autoplay: false,
     prevArrow: '<i class="fas left icon fa-chevron-left"></i>',
     nextArrow: '<i class="fas right icon fa-chevron-right"></i>',
-    responsive: [
-      {
+    responsive: [{
         breakpoint: 992,
         settings: {
           slidesToShow: 3,

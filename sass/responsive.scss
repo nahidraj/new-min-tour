@@ -6,7 +6,7 @@
   }
 }
 
-@media (min-width: 1200px) and(max-width:1399px) {
+@media (min-width: 1200px) and (max-width:1399px) {
 
   // common css part start
   .common-title h2 {
@@ -178,7 +178,7 @@
   // tour details page end
 }
 
-@media (min-width: 992px) and(max-width:1199.98px) {
+@media (min-width: 992px) and (max-width:1199.98px) {
 
   // common css part start
   .common-title h2 {
@@ -2099,6 +2099,11 @@
 
   // wishlist page end
   // tour details page start
+  .tour-details-heading .share-dropdown {
+    width: 115px;
+    text-align: right;
+  }
+
   .tour-details-heading h2 {
     font-size: 20px;
   }
@@ -2325,5 +2330,11 @@
 
   .mobile-search .modal-dialog {
     max-width: unset !important;
+  }
+}
+
+@media (max-width:500px) {
+  .based-on-interest-item .text h5 {
+    height: unset;
   }
 }
